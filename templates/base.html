@@ -32,10 +32,16 @@
             {% endblock %}
 
             <title>Golden Coin {% block extra_title %}{% endblock %}</title>
-            
+
         </head>
         <body>
+            <!-- Navigation -->
             <header>
+                <div id="topnav" class="row bg-black pt-lg-2 d-none d-lg-flex">
+                    <div class="col-12 col-lg-4 my-auto">
+                        <a href="{% url 'home' %}" class="nav-link main-logo-link"><img class='img-fluid' src="" alt ='Logo Pic' id="navbar-logo"></a>
+                    </div>
+                </div>
             </header>
 
             <main class="container">
