@@ -1,0 +1,16 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+    height: calc(100vh - 164px);
+    font-family: 'Tenali Ramakrishna';
+}
+
+main {
+    flex: 1 0 auto;
+  }
