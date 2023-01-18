@@ -1,0 +1,40 @@
+{% load static %}
+
+    <!doctype html>
+    <html lang="en">
+        <head>
+
+            {% block meta %}
+            {% endblock %}
+
+            {% block extra_meta %}
+            {% endblock %}
+
+            {% block corecss %}
+            {% endblock %}
+
+            {% block extra_css %}
+            {% endblock %}
+
+            {% block corejs %}
+            {% endblock %}
+
+            {% block extra_js %}
+            {% endblock %}
+
+
+        </head>
+        <body>
+            <header>
+            </header>
+
+            <main class="container">
+            {% block content %}
+            {% endblock %}
+            </main>
+
+            {% block postloadjs %}
+            {% endblock %}
+
+        </body>
+    </html>
