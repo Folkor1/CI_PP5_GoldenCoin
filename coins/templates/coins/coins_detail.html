@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container-fluid offset">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
+                <div class="image-container my-5">
+                    {% if coins.image %}
+                        <a href="{{ coins.image.url }}" target="_blank">
+                            <img class="card-img-top rounded-1 img-fluid" src="{{ coins.image.url }}" alt="{{ coins.name }}">
+                        </a>
+                        {% else %}
+                        <a href="">
+                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ coins.name }}">
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="product-details-container mb-5 mt-md-5">
+                    <p class="mb-0 h1">{{ coins.name }}</p>
+                    <p class="h2 mb-0 text-left font-weight-bold mb-4">${{ coins.price }}</p>
+                    <p class="lead mb-0 text-capitalize"><span class="fw-bold">Metal:</span> {{ coins.metal }}</p>
+                    <p class="lead mb-0 text-capitalize"><span class="fw-bold">Condition:</span> {{ coins.condition }}</p>
+                    <p class="lead mb-0"><span class="fw-bold">Origin:</span> {{ coins.origin }}</p>
+                    <p class="lead mb-0"><span class="fw-bold">Year:</span> {{ coins.year }}</p>
+                    {% if coins.metal %}
+                    <p class="mb-0">
+                        <a class="text-muted h5 text-decoration-none" href="{% url 'coins' %}?metal={{ coins.metal.name }}">
+                            <i class="fas fa-tag me-2"></i>{{ coins.metal.friendly_name }}
+                        </a>
+                    </p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-8 mx-auto">
+        <hr class="w-100 m-auto mb-4">
+        <p class="h4">{{ coins.description }}</p>
+        <hr class="mb-4">
+    </div>
+    <div>
+    </div>
+{% endblock %}
+
+{% block postloadjs %}
+{% endblock %}
