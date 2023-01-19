@@ -41,7 +41,7 @@ class Coins(models.Model):
     name = models.CharField(max_length=254)
     description = models.TextField()
     quantity = models.PositiveIntegerField()
-    price = models.DecimalField(max_digits=6, decimal_places=2)
+    price = models.DecimalField(max_digits=8, decimal_places=2)
     origin = models.CharField(max_length=254)
     year = models.CharField(max_length=20)
     condition = models.CharField(max_length=20, choices=CONDITION_CHOICES, default=None)
