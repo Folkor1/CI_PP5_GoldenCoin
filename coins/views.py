@@ -64,3 +64,15 @@ def all_coins(request):
     }
 
     return render(request, 'coins/coins.html', context)
+
+
+def coins_detail(request, coins_id):
+    """
+    A view to show individual coin details
+    """
+    coins = get_object_or_404(Coins, pk=coins_id)
+    context = {
+        'coins': coins,
+    }
+
+    return render(request, 'coins/coins_detail.html', context)
