@@ -20,6 +20,15 @@
                 <div class="row justify-content-end me-3">
                     <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end mb-1">
                         <div class="sort-select-wrapper w-25">
+                            <select id="sort-selector" class="h5 custom-select custom-select-sm rounded-1 border-black">
+                                <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort by...</option>
+                                <option value="price_asc" {% if current_sorting == 'price_asc' %}selected{% endif %}>Price (low to high)</option>
+                                <option value="price_desc" {% if current_sorting == 'price_desc' %}selected{% endif %}>Price (high to low)</option>
+                                <option value="origin_asc" {% if current_sorting == 'origin_asc' %}selected{% endif %}>Name (A-Z)</option>
+                                <option value="origin_desc" {% if current_sorting == 'origin_desc' %}selected{% endif %}>Name (Z-A)</option>
+                                <option value="era_asc" {% if current_sorting == 'era_asc' %}selected{% endif %}>Era (Ancient-Modern)</option>
+                                <option value="era_desc" {% if current_sorting == 'era_desc' %}selected{% endif %}>Era (Modern-Ancient)</option>
+                            </select>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 order-md-first">
