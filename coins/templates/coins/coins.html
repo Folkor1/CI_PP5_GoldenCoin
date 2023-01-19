@@ -7,6 +7,11 @@
         <div class="row">
             <div class="col text-center">
                 <h1 class="text-uppercase">Coins</h1>
+                    {% for c in current_metals %}
+                        <a class="category-badge text-decoration-none h4" href="{% url 'coins' %}?metal={{ c.name }}">
+                            <span class="p-2 mb-3 badge bg-light text-black rounded-1 border border-dark">{{ c.friendly_name }}</span>
+                        </a>
+                    {% endfor %}
                 <hr class="w-50 m-auto mb-3">
             </div>
         </div>
@@ -23,11 +28,56 @@
                     </div>
                 </div>
                 <div class="row">
+                    {% for coin in coins %}
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div class="card h-100 border-0">
+                            {% if coin.image %}
+                                <a href="">
+                                    <img class="card-img-top img-fluid" src="{{ coin.image.url }}" alt="{{ coin.name }}">
+                                </a>
+                            {% else %}
+                                <a href="">
+                                    <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ coin.name }}">
+                                </a>
+                            {% endif %}
+                                <div class="card-body pb-0">
+                                    <p class="mb-0 h2 text-center">{{ coin.name }}</p>
+                                </div>
+                                <div class="card-footer bg-white pt-0 border-0 text-left">
+                                    <div class="row">
+                                        <div class="col">
+                                            <p class="lead mb-0 text-capitalize"><span class="fw-bold">Metal:</span> {{ coin.metal }}</p>
+                                            <p class="lead mb-0 text-capitalize"><span class="fw-bold">Condition:</span> {{ coin.condition }}</p>
+                                            <p class="lead mb-0"><span class="fw-bold">Origin:</span> {{ coin.origin }}</p>
+                                            <p class="lead mb-0"><span class="fw-bold">Year:</span> {{ coin.year }}</p>
+                                            {% if coin.metal %}
+                                                <p class="mt-1 mb-0">
+                                                    <a class="text-muted text-decoration-none" href="{% url 'coins' %}?metal={{ coin.metal.name }}">
+                                                        <i class="fas fa-tag me-1"></i>{{ coin.metal.friendly_name }}
+                                                    </a>
+                                                </p>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <p class="h3 mb-0 text-left font-weight-bold text-center">${{ coin.price }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% if forloop.counter|divisibleby:1 %}
+                            <div class="col-12 d-sm-none mb-5">
+                                <hr>
+                            </div>
+                        {% endif %}                        
+                    {% endfor %}
                 </div>
             </div>
         </div>
     </div>
-    
+
 {% endblock %}
 
 {% block postloadjs %}
