@@ -58,6 +58,11 @@ main {
     cursor: pointer;
 }
 
+a.category-badge > span.badge:hover {
+    background: #000000 !important;
+    color: #fff !important;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
