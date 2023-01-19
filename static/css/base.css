@@ -15,3 +15,25 @@ main {
     flex: 1 0 auto;
   }
 
+/* Home page elements */
+
+  .explore-button {
+    border: 1px solid silver;
+    background: #A77509;
+    color: black;
+    width: 180px;
+    height: 60px;
+    font-size: 25px;
+}
+
+.explore-button:hover {
+    background: brown;
+}
+
+.bronze-color {
+    color: brown;
+}
+
+.gold-color {
+    color: #A77509;
+}
