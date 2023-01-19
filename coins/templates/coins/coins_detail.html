@@ -44,7 +44,7 @@
     </div>
     <div>
         {% if coins.quantity != 0 %}
-            <form class="form" action="" method="POST">
+            <form class="form" action="{% url 'add_to_cart' coins.id %}" method="POST">
                 {% csrf_token %}
                 <div class="container w-25 mt-4">
                     <div class="row text-center">
