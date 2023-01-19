@@ -53,3 +53,24 @@ class Order(models.Model):
 
     def __str__(self):
         return self.order_nr
+
+
+class OrderLineItem(models.Model):
+    """
+    A model for each individual order
+    """
+    order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems')
+    coins = models.ForeignKey(Coins, null=False, blank=False, on_delete=models.CASCADE)
+    coin_quantity = models.IntegerField(null=False, blank=False, default=0)
+    lineitem_total = models.DecimalField(max_digits=20, decimal_places=2, null=False, blank=False, editable=False)
+
+    def save(self, *args, **kwargs):
+        """
+        Override the original save method to set the lineitem total
+        and update the order total
+        """
+        self.lineitem_total = self.coins.price * self.coin_quantity
+        super().save(*args, **kwargs)
+
+    def __str__(self):
+        return f'SKU {self.coins.sku} on order {self.order.order_nr}'
