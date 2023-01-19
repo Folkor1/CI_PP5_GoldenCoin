@@ -14,6 +14,7 @@ def checkout(request):
     View the checkout page
     """
 
+    order_form = OrderForm()
     if request.method == 'POST':
         cart = request.session.get('cart', {})
 
