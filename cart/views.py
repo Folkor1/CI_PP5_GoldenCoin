@@ -40,3 +40,27 @@ def add_to_cart(request, item_id):
 
     request.session['cart'] = cart
     return redirect(redirect_url)
+
+
+def adjust_cart(request, item_id):
+    """
+    Adjust the quantity of coins in the cart
+    """
+
+    coins = get_object_or_404(Coins, pk=item_id)
+    coin_quantity = int(request.POST.get('coin_quantity'))
+    cart = request.session.get('cart', {})
+
+    if coin_quantity > 0:
+        if coin_quantity > coins.quantity:
+            cart[item_id] = coins.quantity
+            messages.error(request, f'Sorry, only {coins.quantity} `{coins.name}` are left in stock.')
+        else:
+            cart[item_id] = coin_quantity
+            messages.success(request, f'Updated `{coins.name}` quantity to {cart[item_id]}')
+    else:
+        cart.pop(item_id)
+        messages.success(request, f'Removed `{coins.name}` from the cart')
+
+    request.session['cart'] = cart
+    return redirect(reverse('view_cart'))
