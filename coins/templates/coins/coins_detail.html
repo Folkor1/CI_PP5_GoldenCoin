@@ -108,4 +108,6 @@
 {% endblock %}
 
 {% block postloadjs %}
+{{ block.super }}
+{% include 'coins/includes/quantity_input_script.html' %}
 {% endblock %}
