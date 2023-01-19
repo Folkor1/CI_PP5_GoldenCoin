@@ -3,6 +3,7 @@ from django.contrib import messages
 from django.conf import settings
 from coins.models import Coins
 from .models import Order, OrderLineItem
+from .forms import OrderForm
 from django.views.decorators.http import require_POST
 from cart.contexts import cart_contents
 import json
@@ -75,7 +76,7 @@ def checkout(request):
 
     template = 'checkout/checkout.html'
     context = {
-        'order_form': order_form,
+
     }
 
     return render(request, template, context)

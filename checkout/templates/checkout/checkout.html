@@ -1,0 +1,124 @@
+{% extends "base.html" %}
+{% load static %}
+{% load cart_tools %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="">
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container offset">
+        <div class="row">
+            <div class="col">
+                <h1 class="logo-font mb-0 text-uppercase">Checkout</h1>
+                <hr class="mt-0">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-lg-6 order-lg-last mb-5">
+                <p class="text-muted h4">Order Summary ({{ coins_count }})</p>
+                <div class="row">
+                    <div class="col-5 offset-4">
+                        <p class="mb-1 mt-0 text-muted h5">Coin</p>
+                    </div>
+                    <div class="col-3 text-right">
+                        <p class="mb-1 mt-0 text-muted h5">Subtotal</p>
+                    </div>
+                </div>
+                {% for item in cart_items %}
+                    <div class="row">
+                        <div class="col-4 mb-4">
+                            <a href="{% url 'coins_detail' item.coins.id %}">
+                                {% if item.coins.image %}
+                                    <img class="w-100" src="{{ item.coins.image.url }}" alt="{{ coins.name }}">
+                                {% else %}
+                                    <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ coins.name }}">
+                                {% endif %}
+                            </a>
+                        </div>
+                        <div class="col-5">
+                            <p class="my-0 h5"><strong>{{ item.coins.name }}</strong></p>
+                            <p class="my-0 text-muted h5">Qty: {{ item.coin_quantity }}</p>
+                        </div>
+                        <div class="col-1">
+                            <p class="my-0 text-muted h5 text-end">${{ item.coins.price | calc_subtotal:item.coin_quantity }}</p>
+                        </div>
+                    </div>
+                {% endfor %}
+                <hr class="my-0">
+                <div class="row text-right h4 mt-1">
+                    <div class="col-5 offset-4">
+                        <p class="my-0">Order Total:</p>
+                        <p class="my-0">Delivery:</p>
+                        <p class="my-0">Grand Total:</p>
+                    </div>
+                    <div class="col-3">
+                        <p class="my-0">${{ total | floatformat:2 }}</p>
+                        <p class="my-0">Free</p>
+                        <p class="my-0"><strong>${{ grand_total | floatformat:2 }}</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <p class="text-muted h4">Please fill out the form below to complete your order</p>
+                <form action="{% url 'checkout' %}" method="POST" id="payment-form">
+                    {% csrf_token %}
+                    <fieldset class="rounded px-3 mb-5">
+                        <legend class="fieldset-label px-2 w-auto">Details</legend>
+                    </fieldset>
+                    <fieldset class="rounded px-3 mb-5">
+                        <legend class="fieldset-label px-2 w-auto">Delivery</legend>
+
+                        <div class="form-check form-check-inline float-right mr-0">
+							{% if user.is_authenticated %}
+								<label class="form-check-label h4" for="id-save-info">Save this delivery information to my profile</label>
+                                <input class="form-check-input ml-2 mr-0" type="checkbox" id="id-save-info" name="save-info" checked>
+							{% else %}
+								<label class="form-check-label h4" for="id-save-info">
+                                    <a class="text-primary text-decoration-none" href="">Create an account</a> or 
+                                    <a class="text-primary text-decoration-none" href="">login</a> to save this information
+                                </label>
+							{% endif %}
+						</div>
+                    </fieldset>
+                    <fieldset class="px-3">
+                        <legend class="fieldset-label h4 px-2 w-auto">Payment</legend>
+                        <!-- A Stripe card element will go here -->
+                        <div class="mb-3" id="card-element"></div>
+                        <!-- Used to display form errors -->
+                        <div class="mb-3 text-danger" id="card-errors" role="alert"></div>
+                        <!-- Pass the client secret to the view so we can get the payment intent id -->
+                        <input type="hidden" value="{{ client_secret }}" name="client_secret">
+                    </fieldset>
+
+                    <div class="submit-button text-right mt-5 mb-2 text-center">                    
+						<a href="{% url 'view_cart' %}" class="btn btn-outline-black border-0">
+							<span class="icon">
+								<i class="fas fa-chevron-left"></i>
+							</span>
+							<span class="text-uppercase h4">Adjust Cart</span>
+						</a>
+						<button id="submit-button" class="btn border-0">
+							<span class="text-uppercase rounded-1 p-2 pb-0 login-btns add-btn bg-dark border border-dark text-light">Complete Order<i class="fas fa-lock ms-2"></i></span>
+						</button>
+						<p class="small text-danger mt-3">
+							<span class="icon">
+								<i class="fas fa-exclamation-circle h6"></i>
+							</span>
+							<span class="h5">Your card will be charged <strong>${{ grand_total|floatformat:2 }}</strong></span>
+						</p>
+					</div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="loading-overlay">
+        <h1 class="text-light logo-font loading-spinner">
+            <span class="icon">
+                <i class="fas fa-3x fa-sync-alt fa-spin"></i>
+            </span>
+        </h1>
+    </div>
+{% endblock %}
