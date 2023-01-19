@@ -95,6 +95,17 @@
                             </li>
                         </div>
                     </div>
+                </div>
+                <!-- Navigation for mobile -->
+                <div class="row bg-black d-lg-none h4 p-4">
+                    <nav class="navbar navbar-light w-100">
+                        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        {% include 'includes/mobile-top-header.html' %}
+                        {% include 'includes/main-nav.html' %}
+                    </nav>
+                </div>
             </header>
 
             <main class="container">
