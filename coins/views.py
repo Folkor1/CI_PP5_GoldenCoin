@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .models import Coins, Metal
 from django.db.models import Q
+from django.db.models.functions import Lower
 
 
 def all_coins(request):
@@ -40,10 +41,27 @@ def all_coins(request):
         coins = coins.filter(metal__name__in=metals)
         metals = Metal.objects.filter(name__in=metals)
 
+    if 'sort' in request.GET:
+        sortkey = request.GET['sort']
+        sort = sortkey
+        if sortkey == 'name':
+            sortkey = 'lower_name'
+            coins = coins.annotate(lower_name=Lower('name'))
+        if sortkey == 'metal':
+            sortkey = 'metal__name'
+        if 'direction' in request.GET:
+            direction = request.GET['direction']
+            if direction == 'desc':
+                sortkey = f'-{sortkey}'
+        coins = coins.order_by(sortkey)
+
+    current_sorting = f'{sort}_{direction}'
+
     context = {
         'coins': coins,
         'search_term': query,
         'current_metals': metals,
+        'current_sorting': current_sorting,
     }
 
     return render(request, 'coins/coins.html', context)
