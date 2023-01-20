@@ -157,6 +157,15 @@ input[type=number] {
 
 /* -------------------------------- Media Queries */
 
+/* For large screens size from 1530px wide and down */
+@media screen and (max-width: 1530px) {
+
+    #unique {
+        margin: 0 !important;
+        padding-left: 0 !important;
+    }
+}
+
 /* For large screens size from 1350px wide and down */
 @media screen and (max-width: 1350px) {
 
@@ -200,5 +209,13 @@ input[type=number] {
     #add-buttons {
         width: 100% !important;
         margin-left: 10%;
+    }
+}
+
+/* For small screens size from 350px wide and down */
+@media screen and (max-width: 350px) {
+
+    .message-container {
+       width: 92%;
     }
 }
