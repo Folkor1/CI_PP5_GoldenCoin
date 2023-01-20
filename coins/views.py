@@ -107,3 +107,18 @@ def add_coins(request):
     }
 
     return render(request, template, context)
+
+
+@login_required
+def delete_coins(request, coins_id):
+    """
+    Delete a product from the store
+    """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    coins = get_object_or_404(Coins, pk=coins_id)
+    coins.delete()
+    messages.info(request, 'Coins deleted!')
+    return redirect(reverse('coins'))
