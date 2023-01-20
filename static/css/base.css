@@ -76,6 +76,11 @@ a.category-badge > span.badge:hover {
     font-size: 25px;
 }
 
+.add-btn:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
 /* Input fields  */
 
 textarea[name="description"],
