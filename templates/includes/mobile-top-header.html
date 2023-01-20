@@ -1,6 +1,6 @@
-<li class="list-inline-item">
+<li class="list-inline-item me-0">
     <a class="nav-link d-block d-lg-none" href="#" id="mobile-search" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <div class="text-center text-white pb-0">
+        <div class="text-center text-white mt-3 pb-0">
             <div><i class="fas fa-search fa-lg"></i></div>
             <p class="my-0">Search</p>
         </div>
@@ -20,9 +20,9 @@
         </form>
     </div>
 </li>
-<li class="list-inline-item dropdown">
+<li class="list-inline-item dropdown me-0">
     <a class="nav-link text-black d-block d-lg-none" href="#" id="user-options" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <div class="text-center text-white">
+        <div class="text-center text-white mt-3">
             <div><i class="fas fa-user fa-md"></i></div>
             <p class="my-0">My Account</p>
         </div>
@@ -40,9 +40,9 @@
         {% endif %}
     </div>
 </li>
-<li class="list-inline-item">
+<li class="list-inline-item me-0">
     <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="{% url 'view_cart' %}">
-        <div class="text-center text-white">
+        <div class="text-center text-white mt-3">
             <div><i class="fas fa-shopping-bag fa-md"></i></div>
             <p class="my-0">
                 {% if grand_total %}
