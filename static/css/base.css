@@ -188,6 +188,14 @@ input[type=number] {
     #history-wrap {
         padding-top: 30px;
     }
+
+    #forgot-wrap {
+        width: 30%;
+    }
+
+    #signup_form {
+        width: 40%;
+    }
 }
 
 /* For small screens size from 767px wide and down */
@@ -210,6 +218,18 @@ input[type=number] {
         width: 60% !important;
         align-items: center;
     }
+    
+    #login-wrap {
+        width: 60% !important;
+    }
+
+    #forgot-wrap {
+        width: 40%;
+    }
+
+    #signup_form {
+        width: 50%;
+    }
 }
 
 /* For small screens size from 480px wide and down */
@@ -219,6 +239,18 @@ input[type=number] {
         width: 100% !important;
         margin-left: 10%;
     }
+
+    #login-wrap {
+        width: 60% !important;
+    }
+
+    #forgot-wrap {
+        width: 50%;
+    }
+
+    #signup_form {
+        width: 60%;
+    }
 }
 
 /* For small screens size from 350px wide and down */
@@ -227,5 +259,13 @@ input[type=number] {
     .message-container,
     .custom-toast {
        width: 92%;
+    }
+
+    #forgot-wrap {
+        width: 60%;
+    }
+
+    #signup_form {
+        width: 70%;
     }
 }
