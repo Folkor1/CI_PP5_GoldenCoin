@@ -98,6 +98,25 @@ label[for="id_password2"] {
     display: none;
 }
 
+/* Toasts */
+
+.message-container {
+    position: fixed;
+    top: 100px;
+    right: 15px;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.cart-notification-wrapper {
+    height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
