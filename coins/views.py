@@ -1,7 +1,9 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
-from .models import Coins, Metal
+from django.contrib import messages
 from django.db.models import Q
 from django.db.models.functions import Lower
+from django.contrib.auth.decorators import login_required
+from .models import Metal, Coins
 
 
 def all_coins(request):
@@ -76,3 +78,31 @@ def coins_detail(request, coins_id):
     }
 
     return render(request, 'coins/coins_detail.html', context)
+
+
+@login_required
+def add_coins(request):
+    """
+    Add a product to the store
+    """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    if request.method == 'POST':
+        form = CoinsForm(request.POST, request.FILES)
+        if form.is_valid():
+            coins = form.save()
+            messages.info(request, 'Coins added successfully!')
+            return redirect(reverse('coins_detail', args=[coins.id]))
+        else:
+            messages.error(request, 'Failed to add coins. Please ensure the form is valid.')
+    else:
+        form = CoinsForm()
+
+    template = 'coins/add_coins.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
