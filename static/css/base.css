@@ -157,6 +157,14 @@ input[type=number] {
 
 /* -------------------------------- Media Queries */
 
+/* For large screens size from 1350px wide and down */
+@media screen and (max-width: 1350px) {
+
+    #add-buttons {
+        width: 40% !important;
+    }
+}
+
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
     .container {
@@ -178,5 +186,19 @@ input[type=number] {
     #home-pic-wrap {
         align-items: center;
         margin-left: 0 !important;
+    }
+
+    #add-buttons {
+        width: 60% !important;
+        align-items: center;
+    }
+}
+
+/* For small screens size from 480px wide and down */
+@media screen and (max-width: 480px) {
+
+    #add-buttons {
+        width: 100% !important;
+        margin-left: 10%;
     }
 }
