@@ -165,6 +165,10 @@ def checkout_success(request, order_nr):
 
 @require_POST
 def cache_checkout_data(request):
+    """
+    Hold the checkout data while
+    the checkout form is submitting
+    """
     try:
         pid = request.POST.get('client_secret').split('_secret')[0]
         stripe.api_key = settings.STRIPE_SECRET_KEY
