@@ -4,6 +4,7 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 from django.contrib.auth.decorators import login_required
 from .models import Metal, Coins
+from .forms import CoinsForm
 
 
 def all_coins(request):
