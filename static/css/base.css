@@ -162,7 +162,7 @@ input[type=number] {
 
     #unique {
         margin: 0 !important;
-        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 }
 
@@ -180,6 +180,15 @@ input[type=number] {
     .container {
       max-width: 80%;
     }
+}
+
+/* For large screens size from 1000px wide and down */
+@media screen and (max-width: 1000px) {
+
+    #history-wrap {
+        padding-top: 30px;
+    }
+}
 
 /* For small screens size from 767px wide and down */
 @media screen and (max-width: 767px) {
@@ -215,7 +224,8 @@ input[type=number] {
 /* For small screens size from 350px wide and down */
 @media screen and (max-width: 350px) {
 
-    .message-container {
+    .message-container,
+    .custom-toast {
        width: 92%;
     }
 }
