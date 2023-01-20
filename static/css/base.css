@@ -68,6 +68,36 @@ a.category-badge > span.badge:hover {
     color: #fff !important;
 }
 
+.login-btns {
+    font-size: 20px;
+}
+
+/* Input fields  */
+
+textarea[name="description"],
+#id_login,
+#id_password,
+#id_email,
+#id_email2,
+#id_username,
+#id_password1,
+#id_password2,
+.input-flds,
+.input-group-text { 
+    font-size: 20px !important;
+    padding-bottom: 0 !important;
+}
+
+label[for="id_login"],
+label[for="id_password"],
+label[for="id_email"],
+label[for="id_email2"],
+label[for="id_username"],
+label[for="id_password1"],
+label[for="id_password2"] {
+    display: none;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
