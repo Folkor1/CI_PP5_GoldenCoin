@@ -80,10 +80,10 @@
                                         <li><a class="dropdown-item h5" href="{% url 'add_coins' %}">Coins Management</a></li>
                                     {% endif %}
                                     <li><a class="dropdown-item h5" href="{% url 'profile' %}">My Profile</a></li>
-                                    <li><a class="dropdown-item h5" href="">Logout</a></li>
+                                    <li><a class="dropdown-item h5" href="{% url 'account_logout' %}">Logout</a></li>
                                 {% else %}
-                                    <li><a class="dropdown-item h5" href="">Register</a></li>
-                                    <li><a class="dropdown-item h5" href="">Login</a></li>
+                                    <li><a class="dropdown-item h5" href="{% url 'account_signup' %}">Register</a></li>
+                                    <li><a class="dropdown-item h5" href="{% url 'account_login' %}">Login</a></li>
                                 {% endif %}
                             </ul>
                             <li class="list-inline-item">
