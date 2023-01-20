@@ -163,3 +163,20 @@ input[type=number] {
       max-width: 80%;
     }
   }
+
+/* For small screens size from 767px wide and down */
+@media screen and (max-width: 767px) {
+
+    #explore-wrap {
+        position: absolute;
+        align-items: center;
+        bottom: 20%;
+        right: 10%;
+        margin-left: 0 !important;
+    }
+
+    #home-pic-wrap {
+        align-items: center;
+        margin-left: 0 !important;
+    }
+}
