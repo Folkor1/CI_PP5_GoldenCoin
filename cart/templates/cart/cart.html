@@ -37,9 +37,15 @@
                                     <p class="my-0">Price: ${{ item.coins.price }}</p>
                                     <p><strong>Subtotal: </strong>${{ item.coins.price | calc_subtotal:item.coin_quantity }}</p>
                                 </div>
-                                <div class="col-12 col-sm-6">
-                                    {% include "cart/quantity-form.html" %}
-                                </div>
+                                {% if item.unique != 1 %}
+                                    <div class="col-12 col-sm-6 col-xs-1">
+                                        {% include "cart/quantity-form.html" %}
+                                    </div>
+                                {% else %}
+                                    <div>
+                                        <p class="h4 pt-4 ps-3 fw-bold">1 (Unique)</p>
+                                    </div>
+                                {% endif %}
                             </div>
                             <div class="row"><div class="col"><hr></div></div>
                         {% endfor %}

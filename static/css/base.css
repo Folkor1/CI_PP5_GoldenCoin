@@ -176,10 +176,10 @@ input[type=number] {
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
+
     .container {
       max-width: 80%;
     }
-  }
 
 /* For small screens size from 767px wide and down */
 @media screen and (max-width: 767px) {
