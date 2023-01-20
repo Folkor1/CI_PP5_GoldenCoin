@@ -79,7 +79,7 @@
                                     {% if request.user.is_superuser %}
                                         <li><a class="dropdown-item h5" href="">Coins Management</a></li>
                                     {% endif %}
-                                    <li><a class="dropdown-item h5" href="">My Profile</a></li>
+                                    <li><a class="dropdown-item h5" href="{% url 'profile' %}">My Profile</a></li>
                                     <li><a class="dropdown-item h5" href="">Logout</a></li>
                                 {% else %}
                                     <li><a class="dropdown-item h5" href="">Register</a></li>
