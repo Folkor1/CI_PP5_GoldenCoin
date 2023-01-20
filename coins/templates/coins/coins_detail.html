@@ -35,7 +35,7 @@
                     {% endif %}
                     {% if request.user.is_superuser %}
                     <div class="ml-3 h5 float-end">
-                        <a class="text-decoration-none text-primary" href="">Edit</a> | 
+                        <a class="text-decoration-none text-primary" href="{% url 'edit_coins' coins.id %}">Edit</a> | 
                         <a class="text-danger text-decoration-none" href="{% url 'delete_coins' coins.id %}">Delete</a>
                     </div>
                     {% endif %}

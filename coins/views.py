@@ -122,3 +122,34 @@ def delete_coins(request, coins_id):
     coins.delete()
     messages.info(request, 'Coins deleted!')
     return redirect(reverse('coins'))
+
+
+@login_required
+def edit_coins(request, coins_id):
+    """
+    Edit a product in the store
+    """
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    coins = get_object_or_404(Coins, pk=coins_id)
+    if request.method == 'POST':
+        form = CoinsForm(request.POST, request.FILES, instance=coins)
+        if form.is_valid():
+            form.save()
+            messages.info(request, 'Coins successfully updated!')
+            return redirect(reverse('coins_detail', args=[coins.id]))
+        else:
+            messages.error(request, 'Failed to update. Please ensure the form is valid.')
+    else:
+        form = CoinsForm(instance=coins)
+        messages.info(request, f'You are editing `{coins.name}` coin')
+
+    template = 'coins/edit_coins.html'
+    context = {
+        'form': form,
+        'coins': coins,
+    }
+
+    return render(request, template, context)
