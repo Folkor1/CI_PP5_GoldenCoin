@@ -5,7 +5,7 @@ This is a confirmation of your order at Golden Coin. Your order information is b
 Order Number: {{ order.order_nr }}
 Order Date: {{ order.date }}
 
-Delivery: ${{ order.delivery_cost }}
+Delivery: Free
 Grand Total: ${{ order.grand_total }}
 
 Your order will be shipped to {{ order.street_address1 }} in {{ order.town_or_city }}, {{ order.country }}.
