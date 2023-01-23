@@ -16,7 +16,7 @@ main {
   }
 
 .offset {
-    margin-top: 180px;
+    margin-top: 180px !important;
 }
 
 /* Home page elements */
