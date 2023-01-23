@@ -134,6 +134,11 @@ label[for="id_password2"] {
     overflow-y: auto;
 }
 
+.btn-close {
+    cursor: pointer;
+    pointer-events: auto;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -230,6 +235,19 @@ input[type=number] {
     #signup_form {
         width: 50%;
     }
+
+    .indicates-required {
+        float: left;
+    }
+
+    #mc_embed_signup {
+        width: 200% !important;
+    }
+
+    .btn-close {
+        float: right;
+    }
+
 }
 
 /* For small screens size from 480px wide and down */
