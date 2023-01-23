@@ -177,11 +177,20 @@
 
             {% block postloadjs %}
                 <script>
+                    // Script for toasts
                     var toastElList = [].slice.call(document.querySelectorAll('.toast'))
                     var toastList = toastElList.map(function (toastEl) {
                         return new bootstrap.Toast(toastEl)
                     });
                     toastList.forEach(toast => toast.show());
+
+                    // Bootstrap script for modal
+                    var myModal = document.getElementById('myModal')
+                    var myInput = document.getElementById('myInput')
+
+                    myModal.addEventListener('shown.bs.modal', function () {
+                    myInput.focus()
+                    })
                 </script>
             {% endblock %}
 
