@@ -10,6 +10,15 @@ import time
 import stripe
 
 
+def check(request):
+    cart = request.session.get('cart', {})
+
+    for i in cart.items():
+        coin_by_id = Coins.objects.get(id=i[0])
+        if coin_by_id.quantity < i[1]:
+            return False
+
+
 class StripeWH_Handler:
     """
     Handle Stripe webhooks
@@ -83,11 +92,7 @@ class StripeWH_Handler:
                 profile.default_county = shipping_details.address.state
                 profile.save()
 
-        cart = request.session.get('cart', {})
-
-        for i in cart.items():
-            coin_by_id = Coins.objects.get(id=i[0])
-            if coin_by_id.quantity >= i[1]:
+            if check():
 
                 order_exists = False
                 attempt = 1
