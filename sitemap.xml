@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://goldencoin.herokuapp.com/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/accounts/login/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/cart/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/?sort=price&amp;direction=desc</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/?sort=origin</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/?sort=condition&amp;direction=desc</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/?era=ancient&amp;metal=gold</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/?era=medium&amp;metal=gold</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/?era=modern&amp;metal=gold</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/?metal=gold</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/?era=ancient&amp;metal=silver</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/?era=medium&amp;metal=silver</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/?era=modern&amp;metal=silver</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/?metal=silver</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/?era=ancient&amp;metal=bronze</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/?era=medium&amp;metal=bronze</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/?era=modern&amp;metal=bronze</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/?metal=bronze</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/contact/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/sell/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/18/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/17/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/5/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/6/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/1/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/4/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/10/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/2/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/11/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/43/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/13/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/7/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/8/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/9/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/14/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/12/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/3/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/15/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/36/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/24/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/38/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/27/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/40/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/31/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/33/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/26/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/35/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/29/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/23/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/32/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/22/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/44/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/28/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/30/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/25/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/37/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/39/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/34/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/41/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/42/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/19/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/16/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/45/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/20/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://goldencoin.herokuapp.com/coins/21/</loc>
+  <lastmod>2023-01-24T18:51:01+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
