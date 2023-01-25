@@ -85,7 +85,7 @@
                                     {% else %}
                                         <td class="w-25">
                                             <p class="h4 pt-4 ps-3 fw-bold">1 (Unique)</p>
-                                            <a class="remove-item text-danger h5 ms-3 text-decoration-none" id="remove_{{ item.item_id }}"><small>Remove</small></a>
+                                            <a class="remove-item text-danger h5 ms-3 text-decoration-none remove_{{ item.item_id }}"><small>Remove</small></a>
                                         </td>
                                     {% endif %}
                                     <td class="py-3 h4">
@@ -138,7 +138,7 @@
     // Remove item and reload on click
     $('.remove-item').click(function(e) {
         var csrfToken = "{{ csrf_token }}";
-        var itemId = $(this).attr('id').split('remove_')[1];
+        var itemId = $(this).attr('class').split('remove_')[1];
         var url = `/cart/remove/${itemId}/`;
         var data = {'csrfmiddlewaretoken': csrfToken};
 
