@@ -6,7 +6,7 @@
                 <p class="my-0">Search</p>
             </div>
         </a>
-        <div class="dropdown-menu border-0 w-100 p-3 rounded-1 my-0" aria-labelledby="mobile-search">
+        <div class="dropdown-menu border-0 w-100 p-3 rounded-1 my-0">
             <form class="form" method="GET" action="{% url 'coins' %}">
                 <div class="input-group w-100">
                     <input class="form-control border border-black rounded-1" type="text" name="q" placeholder="Search our site">
@@ -30,7 +30,7 @@
                 <p class="my-0">My Account</p>
             </div>
         </a>
-        <div class="dropdown-menu border-0" aria-labelledby="user-options">
+        <div class="dropdown-menu border-0">
             {% if request.user.is_authenticated %}
                 {% if request.user.is_superuser %}
                     <a href="{% url 'add_coins' %}" class="dropdown-item h5">Product Management</a>
