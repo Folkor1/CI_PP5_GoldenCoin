@@ -33,7 +33,8 @@ class SellForm(forms.ModelForm):
                 placeholder = f'{placeholders[field]} *'
             else:
                 placeholder = placeholders[field]
-            self.fields[field].widget.attrs['placeholder'] = placeholder
+            if field != 'negotiable' and field != 'image':
+                self.fields[field].widget.attrs['placeholder'] = placeholder
             self.fields[field].widget.attrs['class'] = 'rounded-1 input-flds'
             if field != 'negotiable':
                 self.fields[field].label = False

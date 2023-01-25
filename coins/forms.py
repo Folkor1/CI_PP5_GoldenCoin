@@ -38,6 +38,7 @@ class CoinsForm(forms.ModelForm):
                 placeholder = f'{placeholders[field]} *'
             else:
                 placeholder = placeholders[field]
-            self.fields[field].widget.attrs['placeholder'] = placeholder
+            if field != 'metal' and field != 'condition' and field != 'era' and field != 'image':
+                self.fields[field].widget.attrs['placeholder'] = placeholder
             self.fields[field].widget.attrs['class'] = 'rounded-1 input-flds'
             self.fields[field].label = False
