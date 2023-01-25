@@ -3,6 +3,9 @@ from .models import Sell
 
 
 class SellForm(forms.ModelForm):
+    """
+    Form for coins to sell
+    """
 
     class Meta:
         model = Sell

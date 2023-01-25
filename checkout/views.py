@@ -1,4 +1,6 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.shortcuts import (render, redirect, reverse,
+                              get_object_or_404,
+                              HttpResponse)
 from django.contrib import messages
 from django.conf import settings
 from coins.models import Coins
@@ -24,7 +26,9 @@ def checkout(request):
     for i in cart.items():
         coin_by_id = Coins.objects.get(id=i[0])
         if coin_by_id.quantity < i[1]:
-            messages.error(request, f'Sorry, only {coin_by_id.quantity} `{coin_by_id.name}` left in stock. Please adjust the cart.')
+            messages.error(request, f'Sorry, only {coin_by_id.quantity} \
+                           `{coin_by_id.name}` left in stock. Please \
+                            adjust the cart.')
             return redirect(reverse('view_cart'))
         else:
             if request.method == 'POST':
@@ -64,7 +68,8 @@ def checkout(request):
                                 order_line_item.save()
                         except Coins.DoesNotExist:
                             messages.error(request, (
-                                "One of the coins in cart wasn't found in our database."
+                                "One of the coins in cart wasn't found in our \
+                                 database."
                                 "Please call us for assistance!")
                             )
                             order.delete()
@@ -72,15 +77,18 @@ def checkout(request):
 
                     # Save the info to the user's profile if all is well
                     request.session['save_info'] = 'save-info' in request.POST
-                    return redirect(reverse('checkout_success', args=[order.order_nr]))
+                    return redirect(reverse('checkout_success',
+                                            args=[order.order_nr]))
                 else:
-                    messages.error(request, 'There was an error with your form. \
+                    messages.error(request, 'There was an error with \
+                                             your form. \
                         Please double check your information.')
 
             else:
                 cart = request.session.get('cart', {})
                 if not cart:
-                    messages.error(request, "There's nothing in cart at the moment")
+                    messages.error(request, "There's nothing in cart \
+                                    at the moment")
                     return redirect(reverse('coins'))
 
                 current_cart = cart_contents(request)
@@ -92,7 +100,8 @@ def checkout(request):
                     currency=settings.STRIPE_CURRENCY,
                 )
 
-                # Attempt to prefill the form with any info the user maintains in their profile
+                # Attempt to prefill the form with any info the user maintains
+                # in their profile
                 if request.user.is_authenticated:
                     try:
                         profile = UserProfile.objects.get(user=request.user)
@@ -154,7 +163,8 @@ def checkout_success(request, order_nr):
             if user_profile_form.is_valid():
                 user_profile_form.save()
 
-    messages.success(request, f'Order successfully processed! Your order number is \
+    messages.success(request, f'Order successfully processed! \
+        Your order number is \
         {order_nr}. \
         A confirmationemail will be sent to \
         {order.email}.')

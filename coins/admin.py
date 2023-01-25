@@ -3,6 +3,9 @@ from .models import Metal, Coins
 
 
 class CoinsAdmin(admin.ModelAdmin):
+    """
+    Admin model for coins
+    """
     list_display = (
         'sku',
         'name',

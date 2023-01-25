@@ -97,7 +97,8 @@ def add_coins(request):
             messages.info(request, 'Coins added successfully!')
             return redirect(reverse('coins_detail', args=[coins.id]))
         else:
-            messages.error(request, 'Failed to add coins. Please ensure the form is valid.')
+            messages.error(request, 'Failed to add coins. \
+                           Please ensure the form is valid.')
     else:
         form = CoinsForm()
 
@@ -141,7 +142,8 @@ def edit_coins(request, coins_id):
             messages.info(request, 'Coins successfully updated!')
             return redirect(reverse('coins_detail', args=[coins.id]))
         else:
-            messages.error(request, 'Failed to update. Please ensure the form is valid.')
+            messages.error(request, 'Failed to update. \
+                           Please ensure the form is valid.')
     else:
         form = CoinsForm(instance=coins)
         messages.info(request, f'You are editing `{coins.name}` coin')

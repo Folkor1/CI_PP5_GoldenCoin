@@ -3,7 +3,9 @@ from .models import Coins, Metal
 
 
 class CoinsForm(forms.ModelForm):
-
+    """
+    Form for adding a coin to the store
+    """
     class Meta:
         model = Coins
         fields = '__all__'
@@ -38,7 +40,8 @@ class CoinsForm(forms.ModelForm):
                 placeholder = f'{placeholders[field]} *'
             else:
                 placeholder = placeholders[field]
-            if field != 'metal' and field != 'condition' and field != 'era' and field != 'image':
+            if field != 'metal' and field != 'condition' and (
+                            field != 'era' and field != 'image'):
                 self.fields[field].widget.attrs['placeholder'] = placeholder
             self.fields[field].widget.attrs['class'] = 'rounded-1 input-flds'
             self.fields[field].label = False

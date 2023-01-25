@@ -12,7 +12,9 @@ class Contact(models.Model):
     """
     email = models.EmailField(max_length=70)
     name = models.CharField(max_length=50)
-    buy_sell = models.CharField(max_length=20, choices=BUY_SELL_CHOICES, default=None)
+    buy_sell = models.CharField(max_length=20,
+                                choices=BUY_SELL_CHOICES,
+                                default=None)
     phone_nr = models.CharField(max_length=20)
     message = models.TextField()
 
