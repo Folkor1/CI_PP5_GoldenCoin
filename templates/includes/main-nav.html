@@ -1,15 +1,15 @@
-<div class="collapse navbar-collapse mt-3" id="main-nav">
+<div class="collapse navbar-collapse mt-3 main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item d-block d-lg-none">
-            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="{% url 'home' %}" id="home-link">
+            <a class="logo-font font-weight-bold nav-link text-white mr-5" href="{% url 'home' %}">
                 Home
             </a>
         </li>
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white me-5" href="#" id="all-coins-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white me-5" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Coins
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-coins-link">
+            <div class="dropdown-menu border-0">
                 <a href="{% url 'coins' %}?sort=price&direction=desc" class="dropdown-item h5">By Price</a>
                 <a href="{% url 'coins' %}?sort=origin" class="dropdown-item h5">By Origin</a>
                 <a href="{% url 'coins' %}?sort=condition&direction=desc" class="dropdown-item h5">By Condition</a>
@@ -18,10 +18,10 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white me-5" href="#" id="golden-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white me-5" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Golden
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="golden-link">
+            <div class="dropdown-menu border-0">
                 <a href="{% url 'coins' %}?era=ancient&metal=gold" class="dropdown-item h5">Ancient</a>
                 <a href="{% url 'coins' %}?era=medium&metal=gold" class="dropdown-item h5">Medium</a>
                 <a href="{% url 'coins' %}?era=modern&metal=gold" class="dropdown-item h5">Modern</a>
@@ -30,10 +30,10 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white me-5" href="#" id="silver-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white me-5" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Silver
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="silver-link">
+            <div class="dropdown-menu border-0">
                 <a href="{% url 'coins' %}?era=ancient&metal=silver" class="dropdown-item h5">Ancient</a>
                 <a href="{% url 'coins' %}?era=medium&metal=silver" class="dropdown-item h5">Medium</a>
                 <a href="{% url 'coins' %}?era=modern&metal=silver" class="dropdown-item h5">Modern</a>
@@ -42,10 +42,10 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-white me-5" href="#" id="bronze-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-white me-5" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Bronze
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="bronze-link">
+            <div class="dropdown-menu border-0">
                 <a href="{% url 'coins' %}?era=ancient&metal=bronze" class="dropdown-item h5">Ancient</a>
                 <a href="{% url 'coins' %}?era=medium&metal=bronze" class="dropdown-item h5">Medium</a>
                 <a href="{% url 'coins' %}?era=modern&metal=bronze" class="dropdown-item h5">Modern</a>
