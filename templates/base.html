@@ -20,7 +20,7 @@
 
                 <!-- Mailchimp Signup Form -->
                 <link href="//cdn-images.mailchimp.com/embedcode/classic-071822.css" rel="stylesheet" type="text/css">
-                <style type="text/css">#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}</style>
+                <style>#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}</style>
             {% endblock %}
 
             {% block extra_css %}
@@ -69,7 +69,9 @@
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
+                                <ul>
                                 {% include 'includes/mobile-top-header.html' %}
+                                </ul>
                                 {% include 'includes/main-nav.html' %}
                             </nav>
                         </div>
@@ -78,7 +80,7 @@
                     <div class="col-12 col-lg-3 my-auto h4">
                         <div class="dropdown text-lg-end me-5">
                             <button class="btn btn-secondary bg-black border-0 me-4 align-baseline" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                <p class="h4 mb-0">My Account</p> 
+                                <span class="h4 mb-0">My Account</span> 
                             </button>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                 {% if request.user.is_authenticated %}
