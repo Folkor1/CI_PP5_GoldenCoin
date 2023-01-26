@@ -100,3 +100,29 @@ Admin privileges include adding, removing and modifying coins data.
 
 18. As a admin I can access coins management so that new coins can be added to the store.
 19. As a admin I can access coin edit page so that coin information can be modified or deleted.
+
+[Back to Table Of Contents](#table-of-contents)
+
+## Technical Design
+
+### Structure
+
+The app has the following structure: navigation bar on top, footer on bottom - visible across all app pages, and the content/functionality are in between.
+
+Common app's pages:
+- Home: logo and link to explore the store items.
+- Coins: list of all coins available in the store with relevant information.
+- Coin details: detailed coin information and add to cart button.
+- Cart: coins added to cart, price and delivery information.
+- Checkout: checkout form, items information and total price.
+- Checkout success: summary of order with the tracking number.
+- My Profile: delivery information form and order history.
+- Order history: information about the item ordered in past.
+- Sell coins: form to offer coins to sell.
+- Contact: contact form.
+- Sign Up: sign up input fields.
+- Pages 400, 403, 404, 500
+
+Admin only pages:
+- Edit coin: coin information with ability to modify it.
+- Coins Management: form to add a new coin to the store.
