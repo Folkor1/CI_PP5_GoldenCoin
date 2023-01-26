@@ -126,3 +126,9 @@ Common app's pages:
 Admin only pages:
 - Edit coin: coin information with ability to modify it.
 - Coins Management: form to add a new coin to the store.
+
+### Database
+
+- Database consists of 7 models - User, Coins, Metal, Order, OrderLineItem, Sell and Contact.
+- PostgreSQL is used as a database management system.
+- Models were built using Django framework.
