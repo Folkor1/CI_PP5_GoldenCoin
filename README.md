@@ -8,7 +8,7 @@
 
 ## About
 
-The app represents a store which offers to buy coins of different makes, substantially made from gold, silver and bronze. The core audience is those who are interested in numismatics, rare items, and investment in precious metals. There is also form for selling coins.
+The app represents a store which offers to buy coins of different makes, substantially made from gold, silver and bronze. There is also form for sending offers to sell coins.
 Admin privileges include adding, removing and modifying coins data.
 
 ## Table of Contents
@@ -56,3 +56,20 @@ Admin privileges include adding, removing and modifying coins data.
 - Track offers to sell coins.
 - Track contact form enquiries.
 - Retain clients by using mailing system.
+
+## User Experience
+
+### Target Audience
+
+- Those who are interested in numismatics.
+- Who is looking to sell their coins.
+- Who is looking for making investement in precious metals.
+
+### User Requirements and Expectations
+
+- Intuitive navigation.
+- Responsive design.
+- Exhaustive information about the store items.
+- Easy way to add/remove items from cart and checkout.
+- Checkout anonymously.
+- Access information to previous orders.
