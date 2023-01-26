@@ -129,6 +129,10 @@ Admin only pages:
 
 ### Database
 
-- Database consists of 7 models - User, Coins, Metal, Order, OrderLineItem, Sell and Contact.
+- Database consists of 8 models - UserProfile, User, Coins, Metal, Order, OrderLineItem, Sell and Contact.
 - PostgreSQL is used as a database management system.
 - Models were built using Django framework.
+
+<details><summary>Database</summary>
+
+![Database](media/DBschema.JPG)
