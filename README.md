@@ -864,3 +864,37 @@ The model contains:
   </details>
 
 </details>
+
+<details><summary>Sell</summary>
+
+  <details><summary>admin.py</summary>
+
+  ![admin.py screenshot](media/sell-admin-valid.JPG)
+
+  </details>
+
+  <details><summary>forms.py</summary>
+
+  ![forms.py screenshot](media/sell-forms-valid.JPG)
+
+  </details>
+
+  <details><summary>models.py</summary>
+
+  ![models.py screenshot](media/sell-models-valid.JPG)
+
+  </details>
+
+  <details><summary>urls.py</summary>
+
+  ![urls.py screenshot](media/sell-urls-valid.JPG)
+
+  </details>
+
+  <details><summary>views.py</summary>
+
+  ![views.py screenshot](media/sell-views-valid.JPG)
+
+  </details>
+
+</details>
