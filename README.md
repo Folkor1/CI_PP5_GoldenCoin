@@ -728,3 +728,112 @@ The model contains:
   </details>
 
 </details>
+
+<details><summary>Coins</summary>
+
+  <details><summary>admin.py</summary>
+
+  ![admin.py screenshot](media/coins-admin-valid.JPG)
+
+  </details>
+
+  <details><summary>forms.py</summary>
+
+  ![forms.py screenshot](media/coins-forms-valid.JPG)
+
+  </details>
+
+  <details><summary>models.py</summary>
+
+  ![models.py screenshot](media/coins-models-valid.JPG)
+
+  </details>
+
+  <details><summary>urls.py</summary>
+
+  ![urls.py screenshot](media/coins-urls-valid.JPG)
+
+  </details>
+
+  <details><summary>views.py</summary>
+
+  ![views.py screenshot](media/coins-views-valid.JPG)
+
+  </details>
+
+</details>
+
+<details><summary>Cart</summary>
+
+  <details><summary>contexts.py</summary>
+
+  ![contexts.py screenshot](media/cart-contexts-valid.JPG)
+
+  </details>
+
+  <details><summary>urls.py</summary>
+
+  ![urls.py screenshot](media/cart-urls-valid.JPG)
+
+  </details>
+
+  <details><summary>views.py</summary>
+
+  ![views.py screenshot](media/cart-views-valid.JPG)
+
+  </details>
+
+</details>
+
+<details><summary>Checkout</summary>
+
+  <details><summary>admin.py</summary>
+
+  ![admin.py screenshot](media/checkout-admin-valid.JPG)
+
+  </details>
+
+  <details><summary>forms.py</summary>
+
+  ![forms.py screenshot](media/checkout-forms-valid.JPG)
+
+  </details>
+
+  <details><summary>models.py</summary>
+
+  ![models.py screenshot](media/checkout-models-valid.JPG)
+
+  </details>
+
+  <details><summary>signals.py</summary>
+
+  ![signals.py screenshot](media/checkout-signals-valid.JPG)
+
+  </details>
+
+  <details><summary>urls.py</summary>
+
+  ![urls.py screenshot](media/checkout-urls-valid.JPG)
+
+  </details>
+
+  <details><summary>views.py</summary>
+
+  ![views.py screenshot](media/checkout-views-valid.JPG)
+
+  </details>
+
+  <details><summary>webhooks_handler.py</summary>
+
+  ![webhooks_handler.py screenshot](media/checkout-webhook_handler-valid.JPG)
+
+  </details>
+
+  <details><summary>webhooks.py</summary>
+
+  ![webhooks.py screenshot](media/checkout-webhooks-valid.JPG)
+
+  </details>
+
+</details>
+
