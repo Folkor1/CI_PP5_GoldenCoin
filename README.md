@@ -292,3 +292,52 @@ The model contains:
 ![Home page screenshot](media/home.JPG)
 
 </details>
+
+### Footer
+
+- Footer is fixed on the bottom and available across all pages of the app.
+- Link to social media are available in the footer.
+- Contact form is available in the footer.
+- Sell coins form is available in the footer.
+- Subscribe to mailing list is located in the footer.
+- Covered by user story 3
+
+<details><summary>Show Footer screenshot</summary>
+
+![Footer screenshot](media/footer.JPG)
+
+</details>
+
+### Coins
+
+- Coins page contain all coins that are available in the store.
+- Coins page is accessible from the navbar and home page.
+- The following coin categories are available:
+    - Gold
+    - Silver
+    - Bronze
+- Sorting available for coins on navbar:
+    - By Price
+    - By Origin
+    - By Condition
+    - All Coins
+- Sorting available on Coins page:
+    - Price (low to high)
+    - Price (high to low)
+    - Name (A-Z)
+    - Name (Z-A)
+    - Era (Ancient-Modern)
+    - Era (Modern-Ancient)
+- Filters available for each coin category:
+    - Ancient
+    - Medium
+    - Modern
+    - All Coins
+- Tags are available for each category (Gold, Silver, Bronze)
+- Covered by user stories 4-6, 8
+
+<details><summary>Show Coins screenshot</summary>
+
+![Coins screenshot](media/coins-readme.JPG)
+
+</details>
