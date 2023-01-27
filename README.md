@@ -395,3 +395,67 @@ The model contains:
 ![Checkout Success screenshot](media/success-readme.JPG)
 
 </details>
+
+### Sell
+- Sell coins form can be accessed from the footer.
+- Sell form is displayed on the page.
+- Covered by user story 13
+
+<details><summary>Show Sell screenshot</summary>
+
+![Sell screenshot](media/sell-readme.JPG)
+
+</details>
+
+### Contact
+- Contact form can be accessed from the footer.
+- Contact form is displayed on the page.
+- Covered by user story 14
+
+<details><summary>Show Contact screenshot</summary>
+
+![Contact screenshot](media/contact-readme.JPG)
+
+</details>
+
+### User Profile
+- User profile form can be accessed from the My Account menu in nav bar.
+- The form is available only for authorized users.
+- It's possible to save the user profile form on Checkout page.
+- User profile form can be updated.
+- Order history is available on the page.
+- Covered by user stories 11, 15
+
+<details><summary>Show User Profile screenshot</summary>
+
+![User Profile screenshot](media/MyProfile-readme.JPG)
+
+</details>
+
+### Order History
+- Order History link is located on My Profile page.
+- The page is available only to for authorized users.
+- The order history is displayed only when profile has successful orders in the past.
+- Order number, date, delivery address and billing information can be seen on the page.
+- Delivery information is displayed on the page.
+- Email address where the confirmation was sent is displayed on the page.
+- Covered by user stories 12, 15
+
+<details><summary>Show Order History screenshot</summary>
+
+![Order History screenshot](media/history-readme.JPG)
+
+</details>
+
+### Coin Management
+- Coin Management is accessible from My Account menu on the navbar.
+- The section is available only for admin users.
+- Add coin form is available on the page.
+- Once the form is successfully submitted the item appears on coins page.
+- Covered by user story 18
+
+<details><summary>Show Coin Management History screenshot</summary>
+
+![Coin Management screenshot](media/management-readme.JPG)
+
+</details>
