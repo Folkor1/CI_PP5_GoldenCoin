@@ -837,3 +837,30 @@ The model contains:
 
 </details>
 
+<details><summary>My Profile</summary>
+
+  <details><summary>forms.py</summary>
+
+  ![forms.py screenshot](media/profiles-forms-valid.JPG)
+
+  </details>
+
+  <details><summary>models.py</summary>
+
+  ![models.py screenshot](media/profiles-models-valid.JPG)
+
+  </details>
+
+  <details><summary>urls.py</summary>
+
+  ![urls.py screenshot](media/profiles-urls-valid.JPG)
+
+  </details>
+
+  <details><summary>views.py</summary>
+
+  ![views.py screenshot](media/profiles-views-valid.JPG)
+
+  </details>
+
+</details>
