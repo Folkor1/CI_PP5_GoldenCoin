@@ -344,6 +344,7 @@ The model contains:
 </details>
 
 ### Coin details
+
 - Coin details page contain the following information: name, price, metal, condition, origin, year.
 - Add to cart button is located on coin details page.
 - Category tag is showing on the page.
@@ -358,6 +359,7 @@ The model contains:
 </details>
 
 ### Cart
+
 - Cart page is accessible from the navbar.
 - Coins summary can be seen on the cart page: coins info, price, quantuty, delivery fee, subtotal and grand total.
 - Coins amount can be adjusted or removed; if the coin is unique then it can be only removed.
@@ -370,6 +372,7 @@ The model contains:
 </details>
 
 ### Checkout
+
 - Checkout page is accessible from the cart.
 - Order summary can be seen on the page.
 - Delivery form is available on the page.
@@ -384,6 +387,7 @@ The model contains:
 </details>
 
 ### Checkout Success
+
 - Checkout Success page is rendered if the checkout was successful.
 - Order number, date, delivery address and billing information can be seen on the page.
 - Delivery information is displayed on the page.
@@ -397,6 +401,7 @@ The model contains:
 </details>
 
 ### Sell
+
 - Sell coins form can be accessed from the footer.
 - Sell form is displayed on the page.
 - Covered by user story 13
@@ -408,6 +413,7 @@ The model contains:
 </details>
 
 ### Contact
+
 - Contact form can be accessed from the footer.
 - Contact form is displayed on the page.
 - Covered by user story 14
@@ -419,6 +425,7 @@ The model contains:
 </details>
 
 ### User Profile
+
 - User profile form can be accessed from the My Account menu in nav bar.
 - The form is available only for authorized users.
 - It's possible to save the user profile form on Checkout page.
@@ -433,6 +440,7 @@ The model contains:
 </details>
 
 ### Order History
+
 - Order History link is located on My Profile page.
 - The page is available only to for authorized users.
 - The order history is displayed only when profile has successful orders in the past.
@@ -448,6 +456,7 @@ The model contains:
 </details>
 
 ### Coin Management
+
 - Coin Management is accessible from My Account menu on the navbar.
 - The section is available only for admin users.
 - Add coin form is available on the page.
@@ -461,6 +470,7 @@ The model contains:
 </details>
 
 ### Edit Coins
+
 - Coins can be edited from coins and coin details pages.
 - The menu available only for admin users.
 - Coin data can be modified in the form.
@@ -469,5 +479,75 @@ The model contains:
 <details><summary>Show Edit Coins History screenshot</summary>
 
 ![Edit Coins screenshot](media/edit-readme.JPG)
+
+</details>
+
+### Sign Up
+
+- Sign Up is located in My Account menu on navbar and is available only when not logged in.
+- It's possible to create a new user.
+- The following fields are displayed on the form:
+  - Username
+  - E-mail (optional)
+  - Password (twice)
+- If username is not available, the invalidation message is displayed.
+- Covered by user story 16
+
+<details><summary>Show Sign Up screenshot</summary>
+
+![Sign Up screenshot](media/signup-readme.JPG)
+
+</details>
+<details><summary>Show Username already exists screenshot</summary>
+
+![Username already exists screenshot](media/exists-readme.JPG)
+
+</details>
+
+### Login
+
+- Login is located in My Account menu on navbar and is available only when not logged in.
+- It's possible to authorize into the system using a created login and password.
+- The following fields are displayed on the form:
+  - Username
+  - Password
+- If username/password are incorrect, the invalidation message is displayed.
+- 'Remember me' checkbox is available.
+- Once logged in the user is redirected to home page.
+- Covered by user story 17
+
+<details><summary>Show Login screenshot</summary>
+
+![Login screenshot](media/signin-readme.JPG)
+
+</details>
+<details><summary>Show Login error screenshot</summary>
+
+![Login error screenshot](media/signin-error-readme.JPG)
+
+</details>
+
+### Logout
+
+- Logout is located in My Account menu on navbar and available only when logged in.
+- Once logged out the user is redirected to home page.
+- Covered by user story 17
+
+<details><summary>Show Logout screenshot</summary>
+
+![Logout screenshot](media/signout-readme.JPG)
+
+</details>
+
+### Forgot Password
+
+- Forgor Password link is accessible from login page.
+- Email address input is shown on the form.
+- Once submitted the email is generated to restore the password.
+- Covered by user story 17
+
+<details><summary>Show Forgot Password screenshot</summary>
+
+![Forgot Password screenshot](media/forgot-readme.JPG)
 
 </details>
