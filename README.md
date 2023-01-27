@@ -356,3 +356,42 @@ The model contains:
 ![Coin Details screenshot](media/coin-details.JPG)
 
 </details>
+
+### Cart
+- Cart page is accessible from the navbar.
+- Coins summary can be seen on the cart page: coins info, price, quantuty, delivery fee, subtotal and grand total.
+- Coins amount can be adjusted or removed; if the coin is unique then it can be only removed.
+- Covered by user stories 9, 10
+
+<details><summary>Show Cart screenshot</summary>
+
+![Cart screenshot](media/cart-readme.JPG)
+
+</details>
+
+### Checkout
+- Checkout page is accessible from the cart.
+- Order summary can be seen on the page.
+- Delivery form is available on the page.
+- Form information can be saved to the Profile if the user is logged in.
+- Payment form is available on the page.
+- Covered by user story 11
+
+<details><summary>Show Checkout screenshot</summary>
+
+![Checkout screenshot](media/checkout-readme.JPG)
+
+</details>
+
+### Checkout Success
+- Checkout Success page is rendered if the checkout was successful.
+- Order number, date, delivery address and billing information can be seen on the page.
+- Delivery information is displayed on the page.
+- Email address where the confirmation was sent is displayed on the page.
+- Covered by user story 12
+
+<details><summary>Show Checkout Success screenshot</summary>
+
+![Checkout Success screenshot](media/success-readme.JPG)
+
+</details>
