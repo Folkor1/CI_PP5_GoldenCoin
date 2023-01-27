@@ -459,3 +459,15 @@ The model contains:
 ![Coin Management screenshot](media/management-readme.JPG)
 
 </details>
+
+### Edit Coins
+- Coins can be edited from coins and coin details pages.
+- The menu available only for admin users.
+- Coin data can be modified in the form.
+- Covered by user story 19
+
+<details><summary>Show Edit Coins History screenshot</summary>
+
+![Edit Coins screenshot](media/edit-readme.JPG)
+
+</details>
