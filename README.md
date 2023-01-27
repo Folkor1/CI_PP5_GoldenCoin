@@ -586,3 +586,85 @@ The model contains:
 ![Forgot Password screenshot](media/forgot-readme.JPG)
 
 </details>
+
+## Validation
+
+### HTML validation
+
+[W3C Markup Validation Service](https://validator.w3.org/) was used to validate HTML content of all app's pages.
+
+<details><summary>Home</summary>
+
+![Home screenshot](media/Home-readme.JPG)
+
+</details>
+<details><summary>Coins</summary>
+
+![Coins screenshot](media/Coins-valid-readme.JPG)
+
+</details>
+<details><summary>Coin Details</summary>
+
+![Coin Details screenshot](media/Coin%20Detail-valid-readme.JPG)
+
+</details>
+<details><summary>Cart</summary>
+
+![Cart screenshot](media/Cart-valid-readme.JPG)
+
+</details>
+<details><summary>Checkout</summary>
+
+![Checkout screenshot](media/Checkout-valid-readme.JPG)
+
+</details>
+<details><summary>Checkout Success</summary>
+
+![Checkout Success screenshot](media/Checkout%20Success-valid-readme.JPG)
+
+</details>
+<details><summary>Order History</summary>
+
+![Order History screenshot](media/Order%20History-valid-readme.JPG)
+
+</details>
+<details><summary>Sell</summary>
+
+![Sell screenshot](media/Sell%20Coins-valid-readme.JPG)
+
+</details>
+<details><summary>Contact</summary>
+
+![Contact screenshot](media/Contact-valid-readme.JPG)
+
+</details>
+<details><summary>Coin Management</summary>
+
+![Coin Management screenshot](media/Coin%20Management-valid-readme.JPG)
+
+</details>
+<details><summary>Edit Coin</summary>
+
+![Edit Coin screenshot](media/Edit%20Coin-valid-readme.JPG)
+
+</details>
+<details><summary>My Profile</summary>
+
+![My Profile screenshot](media/Profile-valid-readme.JPG)
+
+</details>
+<details><summary>Sign Up</summary>
+
+![Sign Up screenshot](media/Register-valid-readme.JPG)
+
+</details>
+<details><summary>Login</summary>
+
+![Login screenshot](media/Login-valid-readme.JPG)
+
+</details>
+<details><summary>404</summary>
+
+![404 screenshot](media/404-valid-readme.JPG)
+
+</details>
