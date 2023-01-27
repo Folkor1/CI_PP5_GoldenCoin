@@ -898,3 +898,37 @@ The model contains:
   </details>
 
 </details>
+
+<details><summary>Contact</summary>
+
+  <details><summary>admin.py</summary>
+
+  ![admin.py screenshot](media/contact-admin-valid.JPG)
+
+  </details>
+
+  <details><summary>forms.py</summary>
+
+  ![forms.py screenshot](media/contact-forms-valid.JPG)
+
+  </details>
+
+  <details><summary>models.py</summary>
+
+  ![models.py screenshot](media/contact-models-valid.JPG)
+
+  </details>
+
+  <details><summary>urls.py</summary>
+
+  ![urls.py screenshot](media/contact-urls-valid.JPG)
+
+  </details>
+
+  <details><summary>views.py</summary>
+
+  ![views.py screenshot](media/contact-views-valid.JPG)
+
+  </details>
+
+</details>
