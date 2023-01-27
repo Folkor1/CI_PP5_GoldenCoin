@@ -260,3 +260,16 @@ The model contains:
 - [os](https://docs.python.org/3/library/os.html) as mapping object to represent environmental variables
 - [allauth](https://django-allauth.readthedocs.io/en/latest/) for user authentication
 - [unittest](https://docs.djangoproject.com/en/4.1/topics/testing/overview/) as unit test module
+
+## Features
+
+### Navigation bar
+
+- Navbar takes a fixed position at the top of the screen and is available across all pages of the app.
+- Search bar is taking center position within the navbar.
+- Logo is located on the left and contain home page link.
+- Links to filtered store items are located under the search bar.
+- Links include: All coins, Golden, Silver, Bronze.
+- My Account menu is on the right of navbar and contain coin management(for admin only), SignUp/Login and My Profile.
+- Cart is also on the right of navbar.
+- Covered by user stories 1,2,4,9, 15-18
