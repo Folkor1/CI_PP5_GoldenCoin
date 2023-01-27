@@ -272,4 +272,23 @@ The model contains:
 - Links include: All coins, Golden, Silver, Bronze.
 - My Account menu is on the right of navbar and contain coin management(for admin only), SignUp/Login and My Profile.
 - Cart is also on the right of navbar.
-- Covered by user stories 1,2,4,9, 15-18
+- Covered by user stories 1, 2, 4, 9, 15-18
+
+<details><summary>Show Navbar screenshot</summary>
+
+![Navbar screenshot](media/Navbar.JPG)
+
+</details>
+
+### Home page
+
+- Home page contains the following sections:
+  - General information
+  - Explore button leading to all coins page
+- Covered by user story 1
+
+<details><summary>Show Home page screenshot</summary>
+
+![Home page screenshot](media/home.JPG)
+
+</details>
