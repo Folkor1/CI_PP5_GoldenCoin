@@ -708,3 +708,23 @@ The model contains:
 ![Toasts screenshot](media/toasts-valid-readme.JPG)
 
 </details>
+
+### Python validation
+
+[pycodstyle](https://pypi.org/project/pycodestyle/) extension was used to validate Python code.
+
+<details><summary>Home</summary>
+
+  <details><summary>urls.py</summary>
+
+  ![urls.py screenshot](media/home-urls-valid.JPG)
+
+  </details>
+
+  <details><summary>views.py</summary>
+
+  ![views.py screenshot](media/home-views-valid.JPG)
+
+  </details>
+
+</details>
