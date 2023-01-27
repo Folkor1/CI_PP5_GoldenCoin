@@ -334,10 +334,25 @@ The model contains:
     - Modern
     - All Coins
 - Tags are available for each category (Gold, Silver, Bronze)
-- Covered by user stories 4-6, 8
+- Edit/Delete menu is visible only for admin users.
+- Covered by user stories 4-6, 8, 19
 
 <details><summary>Show Coins screenshot</summary>
 
 ![Coins screenshot](media/coins-readme.JPG)
+
+</details>
+
+### Coin details
+- Coin details page contain the following information: name, price, metal, condition, origin, year.
+- Add to cart button is located on coin details page.
+- Category tag is showing on the page.
+- Increment/Decrement menu is displayed (for multiple coins) and 'Unique' mark if the coin quantity in store is 1.
+- Edit/Delete menu is visible only for admin users.
+- Covered by user stories 7, 10, 19
+
+<details><summary>Show Coin Details screenshot</summary>
+
+![Coin Details screenshot](media/coin-details.JPG)
 
 </details>
