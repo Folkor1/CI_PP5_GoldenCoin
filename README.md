@@ -668,3 +668,43 @@ The model contains:
 ![404 screenshot](media/404-valid-readme.JPG)
 
 </details>
+
+### CSS validation
+
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate Style.css file.
+
+<details><summary>base.css</summary>
+
+![base.css screenshot](media/Base-valid-readme.JPG)
+
+</details>
+<details><summary>checkout.css</summary>
+
+![checkout.css screenshot](media/Checkout-css-valid-readme.JPG)
+
+</details>
+
+### JS validation
+
+[JSHint](https://jshint.com/) was used to validate Script.js file.
+
+<details><summary>Incredemt/decrement menu</summary>
+
+![Incredemt/decrement menu screenshot](media/%2B-%20menu.JPG)
+
+</details>
+<details><summary>Cart</summary>
+
+![Cart screenshot](media/cart-js-valid-readme.JPG)
+
+</details>
+<details><summary>Stripe</summary>
+
+![Stripe screenshot](media/stripe-valid-readme.JPG)
+
+</details>
+<details><summary>Toasts</summary>
+
+![Toasts screenshot](media/toasts-valid-readme.JPG)
+
+</details>
