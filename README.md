@@ -227,3 +227,36 @@ The model contains:
 - Buyer or Seller
 - Phone Number
 - Message
+
+## Technologies Used
+
+### Languages
+
+- HTML
+- CSS
+- JavaScript
+- Python
+
+### Frameworks
+
+- Django
+
+### Libraries and Tools
+- [Bootstrap 5.1](https://getbootstrap.com/) was used to style UI components
+- [Amazon AWS](https://aws.amazon.com/) as static and media files management system
+- [Quick DBD](https://www.quickdatabasediagrams.com/) as database diagram design tool
+- [Font Awesome](https://fontawesome.com/) as a toolkit for icons
+- [GitHub](https://github.com/) as a repository for the project code
+- [Heroku](https://www.heroku.com/) to deploy the project
+- [jQuery](https://jquery.com/) as a JS library was used to manipulate the DOM
+- [ElephantSQL](https://www.elephantsql.com/) as a database management system
+- [writer.com](https://writer.com/grammar-checker/) as spelling check tool
+- [Stripe](https://stripe.com/grammar-checker/) as embedded payment system
+- [xml-sitemaps.com](https://www.xml-sitemaps.com/) as sitemap.xml page generator
+- [Mailchimp](https://mailchimp.com/) as mailing management tool
+
+### Python Libraries
+
+- [os](https://docs.python.org/3/library/os.html) as mapping object to represent environmental variables
+- [allauth](https://django-allauth.readthedocs.io/en/latest/) for user authentication
+- [unittest](https://docs.djangoproject.com/en/4.1/topics/testing/overview/) as unit test module
