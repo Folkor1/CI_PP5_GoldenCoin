@@ -136,3 +136,94 @@ Admin only pages:
 <details><summary>Database</summary>
 
 ![Database](media/DBschema.JPG)
+
+</details>
+
+### UserProfile model
+This model contains:
+- User
+- Default phone number
+- Default street address 1
+- Default street address 2
+- Default town or city
+- Default county
+- Default postcode
+- Default country
+
+### User model
+Contains user-related data: 
+- Username
+- Password
+- First Name
+- Last Name
+- Email
+- Is Active?
+- Is Staff?
+- Is Superuser?
+- Last login
+- Date joined
+
+### Coins model
+The model contains:
+- Metal
+- SKU
+- Name
+- Description
+- Quantity
+- Price
+- Origin
+- Year
+- Condition
+- Era
+- Image URL
+- Image
+
+### Metal model
+The model contains:
+- Name
+- Friendly name
+
+### Order model
+The model contains:
+- Order number
+- UserProfile
+- Full Name
+- Email
+- Phone Number
+- Country
+- Postcode
+- Town or City
+- Street Address 1
+- Street Address 2
+- County
+- Date
+- Grand Total
+- Original Cart
+- Stripe PID
+
+### OrderLineItem model
+The model contains:
+- Order
+- Coins
+- Coin Quantity
+- Lineitem Total
+
+### Sell model
+The model contains:
+- Email
+- Coin Name
+- Description
+- Metal
+- Origin
+- Condition
+- Ask Price
+- Negotiable?
+- Image
+
+### Contact model
+The model contains:
+- Email
+- Name
+- Buyer or Seller
+- Phone Number
+- Message
