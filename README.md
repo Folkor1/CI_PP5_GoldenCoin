@@ -342,6 +342,16 @@ The model contains:
 ![Coins screenshot](media/coins-readme.JPG)
 
 </details>
+<details><summary>Show Search results screenshot</summary>
+
+![Search results screenshot](media/search-readme.JPG)
+
+</details>
+<details><summary>Show Tags screenshot</summary>
+
+![Tags screenshot](media/tags-readme.JPG)
+
+</details>
 
 ### Coin details
 
@@ -357,6 +367,11 @@ The model contains:
 ![Coin Details screenshot](media/coin-details.JPG)
 
 </details>
+<details><summary>Show Non Unique coin screenshot</summary>
+
+![Non Unique coin screenshot](media/non-unique-readme.JPG)
+
+</details>
 
 ### Cart
 
@@ -368,6 +383,16 @@ The model contains:
 <details><summary>Show Cart screenshot</summary>
 
 ![Cart screenshot](media/cart-readme.JPG)
+
+</details>
+<details><summary>Show Add to Cart screenshot</summary>
+
+![Add to Cart screenshot](media/add-to-cart-readme.JPG)
+
+</details>
+<details><summary>Show Multiple coins in Cart screenshot</summary>
+
+![Multiple coins in Cart screenshot](media/multiple-cart-readme.JPG)
 
 </details>
 
@@ -383,6 +408,16 @@ The model contains:
 <details><summary>Show Checkout screenshot</summary>
 
 ![Checkout screenshot](media/checkout-readme.JPG)
+
+</details>
+<details><summary>Show Invalid Card Details screenshot</summary>
+
+![Invalid Card Details screenshot](media/invalid-readme.JPG)
+
+</details>
+<details><summary>Show Order Processing screenshot</summary>
+
+![Order Processing screenshot](media/processing-readme.JPG)
 
 </details>
 
