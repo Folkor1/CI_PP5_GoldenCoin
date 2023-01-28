@@ -64,7 +64,7 @@ Admin privileges include adding, removing and modifying coins data.
 
 - Those who are interested in numismatics.
 - Who is looking to sell their coins.
-- Who is looking for making investement in precious metals.
+- Who is looking for making investment in precious metals.
 
 ### User Requirements and Expectations
 
@@ -85,22 +85,22 @@ Admin privileges include adding, removing and modifying coins data.
 4. As a user I can access all coins link so that all available coins can be viewed.
 5. As a user I can use filter coins so that different categories of coins can be grouped on the same view.
 6. As a user I can view coins as badges on the coins page so that all relevant each coin's information and price can be viewed.
-7. As a user I can preview each coin so that coins's information can be viewed
-8. As a user I can use coin ordering so that coins can be sorted by price, origin, condition, name and era.
+7. As a user I can preview each coin so that coin's information can be viewed
+8. As a user I can use coin ordering so that coins can be sorted by price, origin, condition, name, and era.
 9. As a user I can open the cart so that cart contents can be viewed and modified.
 10. As a user I can add coins to cart so that coins are added to cart and overall price is visible.
 11. As a user I can access the checkout page so that delivery and payment information can be entered to process the purchase.
 12. As a user I can complete the order so that order is confirmed and order number is available.
 13. As a user I can access the coin sell form so that the form can be populated with the coin offer.
 14. As a user I can submit the contact form so that site owners can be contacted.
-15. As a user I can access profile page so that delivery information can be added/amended and order history can be viewed.
+15. As a user I can access the profile page so that delivery information can be added/amended and order history can be viewed.
 16. As a user I can access Sign Up menu so that it's possible to create an account.
 17. As a user I can access the login menu so that it's possible to log in to the site.
 
 ### Site Owner
 
-18. As a admin I can access coins management so that new coins can be added to the store.
-19. As a admin I can access coin edit page so that coin information can be modified or deleted.
+18. As an admin I can access coins management so that new coins can be added to the store.
+19. As an admin I can access the coin edit page so that coin information can be modified or deleted.
 
 [Back to Table Of Contents](#table-of-contents)
 
@@ -114,7 +114,7 @@ Common app's pages:
 - Home: logo and link to explore the store items.
 - Coins: list of all coins available in the store with relevant information.
 - Coin details: detailed coin information and add to cart button.
-- Cart: coins added to cart, price and delivery information.
+- Cart: coins added to cart, price, and delivery information.
 - Checkout: checkout form, items information and total price.
 - Checkout success: summary of order with the tracking number.
 - My Profile: delivery information form and order history.
@@ -268,10 +268,10 @@ The model contains:
 
 - Navbar takes a fixed position at the top of the screen and is available across all pages of the app.
 - Search bar is taking center position within the navbar.
-- Logo is located on the left and contain home page link.
+- Logo is located on the left and contains home page link.
 - Links to filtered store items are located under the search bar.
 - Links include: All coins, Golden, Silver, Bronze.
-- My Account menu is on the right of navbar and contain coin management(for admin only), SignUp/Login and My Profile.
+- My Account menu is on the right of navbar and contains coin management (for admin only), SignUp/Login and My Profile.
 - Cart is also on the right of navbar.
 - Covered by user stories 1, 2, 4, 9, 15-18
 
@@ -296,8 +296,8 @@ The model contains:
 
 ### Footer
 
-- Footer is fixed on the bottom and available across all pages of the app.
-- Link to social media are available in the footer.
+- Footer is fixed at the bottom and available across all pages of the app.
+- Links to social media are available in the footer.
 - Contact form is available in the footer.
 - Sell coins form is available in the footer.
 - Subscribe to mailing list is located in the footer.
@@ -311,7 +311,7 @@ The model contains:
 
 ### Coins
 
-- Coins page contain all coins that are available in the store.
+- Coins page contains all coins that are available in the store.
 - Coins page is accessible from the navbar and home page.
 - The following coin categories are available:
     - Gold
@@ -356,7 +356,7 @@ The model contains:
 
 ### Coin details
 
-- Coin details page contain the following information: name, price, metal, condition, origin, year.
+- Coin details page contains the following information: name, price, metal, condition, origin, year.
 - Add to cart button is located on coin details page.
 - Category tag is showing on the page.
 - Increment/Decrement menu is displayed (for multiple coins) and 'Unique' mark if the coin quantity in store is 1.
@@ -377,7 +377,7 @@ The model contains:
 ### Cart
 
 - Cart page is accessible from the navbar.
-- Coins summary can be seen on the cart page: coins info, price, quantuty, delivery fee, subtotal and grand total.
+- Coins summary can be seen on the cart page: coins info, price, quantity, delivery fee, subtotal and grand total.
 - Coins amount can be adjusted or removed; if the coin is unique then it can be only removed.
 - Covered by user stories 9, 10
 
@@ -450,7 +450,7 @@ The model contains:
 
 ### Contact
 
-- Contact form can be accessed from the footer.
+- The contact form can be accessed from the footer.
 - Contact form is displayed on the page.
 - Covered by user story 14
 
@@ -478,8 +478,8 @@ The model contains:
 ### Order History
 
 - Order History link is located on My Profile page.
-- The page is available only to for authorized users.
-- The order history is displayed only when profile has successful orders in the past.
+- The page is available only for authorized users.
+- The order history is displayed only when a profile has successful orders in the past.
 - Order number, date, delivery address and billing information can be seen on the page.
 - Delivery information is displayed on the page.
 - Email address where the confirmation was sent is displayed on the page.
@@ -496,7 +496,7 @@ The model contains:
 - Coin Management is accessible from My Account menu on the navbar.
 - The section is available only for admin users.
 - Add coin form is available on the page.
-- Once the form is successfully submitted the item appears on coins page.
+- Once the form is successfully submitted the item appears on the coins page.
 - Covered by user story 18
 
 <details><summary>Show Coin Management History screenshot</summary>
@@ -508,7 +508,7 @@ The model contains:
 ### Edit Coins
 
 - Coins can be edited from coins and coin details pages.
-- The menu available only for admin users.
+- The menu is available only for admin users.
 - Coin data can be modified in the form.
 - Covered by user story 19
 
@@ -565,7 +565,7 @@ The model contains:
 
 ### Logout
 
-- Logout is located in My Account menu on navbar and available only when logged in.
+- Logout is located in My Account menu on navbar and is available only when logged in.
 - Once logged out the user is redirected to home page.
 - Covered by user story 17
 
@@ -579,7 +579,7 @@ The model contains:
 
 - Forgor Password link is accessible from login page.
 - Email address input is shown on the form.
-- Once submitted the email is generated to restore the password.
+- Once submitted, the email is generated to restore the password.
 - Covered by user story 17
 
 <details><summary>Show Forgot Password screenshot</summary>
@@ -593,14 +593,14 @@ The model contains:
 The approach for promoting Golden Coin project includes social media marketing and email marketing.
 
 ### Social media marketing
-This type of marketing allows to access a large volume of user interactions, such as views, likes, reposts. A wide range of additional tools can also help to improve these stats.
+This type of marketing allows to access a large volume of user interactions, such as views, likes, and reposts. A wide range of additional tools can also help to improve these stats.
 
 ![Facebook screenshot](media/facebook-hat-readme.JPG)
 
 ![Facebook screenshot](media/facebook-posts-readme.JPG)
 
 ### Email marketing
-Proper use of mailing lists may significantly expand the potential clients base, as well as retain existing ones.
+Proper use of mailing lists may significantly expand the potential client base, as well as retain existing ones.
 
 ![Mailchimp screenshot](media/sub-readme.JPG)
 
@@ -992,18 +992,18 @@ The project was tested using 2 methods:
 | Navbar | Click 'All Coins' -> 'By Origin' | Navigated to 'Coins' page with coins sorted by origin (alphabetic order A-Z) | Works as expected |
 | Navbar | Click 'All Coins' -> 'By Condition' | Navigated to 'Coins' page with coins sorted by condition (uncirculated - fair) | Works as expected |
 | Navbar | Click 'All Coins' -> 'All Coins' | Navigated to 'Coins' page with all coins displayed | Works as expected |
-| Navbar | Click 'Golden' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal(gold) and era(ancient) | Works as expected |
-| Navbar | Click 'Golden' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal(gold) and era(medium) | Works as expected |
-| Navbar | Click 'Golden' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal(gold) and era(modern) | Works as expected |
-| Navbar | Click 'Golden' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal(gold) | Works as expected |
-| Navbar | Click 'Silver' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal(silver) and era(ancient) | Works as expected |
-| Navbar | Click 'Silver' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal(silver) and era(medium) | Works as expected |
-| Navbar | Click 'Silver' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal(silver) and era(modern) | Works as expected |
-| Navbar | Click 'Silver' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal(gold) | Works as expected |
-| Navbar | Click 'Bronze' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal(bronze) and era(ancient) | Works as expected |
-| Navbar | Click 'Bronze' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal(bronze) and era(medium) | Works as expected |
-| Navbar | Click 'Bronze' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal(bronze) and era(modern) | Works as expected |
-| Navbar | Click 'Bronze' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal(bronze) and era(modern) | Works as expected |
+| Navbar | Click 'Golden' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal (gold) and era (ancient) | Works as expected |
+| Navbar | Click 'Golden' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal (gold) and era (medium) | Works as expected |
+| Navbar | Click 'Golden' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal (gold) and era (modern) | Works as expected |
+| Navbar | Click 'Golden' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal (gold) | Works as expected |
+| Navbar | Click 'Silver' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal (silver) and era (ancient) | Works as expected |
+| Navbar | Click 'Silver' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal (silver) and era (medium) | Works as expected |
+| Navbar | Click 'Silver' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal (silver) and era (modern) | Works as expected |
+| Navbar | Click 'Silver' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal (gold) | Works as expected |
+| Navbar | Click 'Bronze' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal (bronze) and era (ancient) | Works as expected |
+| Navbar | Click 'Bronze' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal (bronze) and era (medium) | Works as expected |
+| Navbar | Click 'Bronze' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal (bronze) and era (modern) | Works as expected |
+| Navbar | Click 'Bronze' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal (bronze) and era (modern) | Works as expected |
 | Navbar | Click 'My Account' -> 'Coins Management' | Navigated to 'Coins Management' page | Works as expected |
 | Navbar | Click 'My Account' -> 'My Profile' | Navigated to 'My Profile' page | Works as expected |
 | Navbar | Click 'My Account' -> 'Register' | Navigated to 'Sign Up' page | Works as expected |
@@ -1081,7 +1081,7 @@ The project was tested using 2 methods:
 | Coins | Click on 'Bronze' tag | Only coins with 'Bronze' tag are displayed on the page | Works as expected |
 | Coins | Enter 'revolution' into search bar | Only coins containing 'revolution' in description are displayed | Works as expected |
 | Coins | Click 'Coins Home' | All available in the store coins are displayed | Works as expected |
-| Coins | Click 'Edit' on any coin (admin only) | Navigated to edit page with the correct coin id | Works as expected |
+| Coins | Click 'Edit' on any coin (admin only) | Navigated to edit page with the correct coin Id | Works as expected |
 | Coins | Click 'Delete' on any coin (admin only) | Coin is no longer displayed in the store | Works as expected |
 | Coins | Scroll down to the bottom and click auto scroll up icon | Navigated to the top of the page | Works as expected |
 
@@ -1111,18 +1111,18 @@ The project was tested using 2 methods:
 | Filter | Click 'All Coins' -> 'By Origin' | Navigated to 'Coins' page with coins sorted by origin (alphabetic order A-Z) | Works as expected |
 | Filter | Click 'All Coins' -> 'By Condition' | Navigated to 'Coins' page with coins sorted by condition (uncirculated - fair) | Works as expected |
 | Filter | Click 'All Coins' -> 'All Coins' | Navigated to 'Coins' page with all coins displayed | Works as expected |
-| Filter | Click 'Golden' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal(gold) and era(ancient) | Works as expected |
-| Filter | Click 'Golden' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal(gold) and era(medium) | Works as expected |
-| Filter | Click 'Golden' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal(gold) and era(modern) | Works as expected |
-| Filter | Click 'Golden' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal(gold) | Works as expected |
-| Filter | Click 'Silver' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal(silver) and era(ancient) | Works as expected |
-| Filter | Click 'Silver' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal(silver) and era(medium) | Works as expected |
-| Filter | Click 'Silver' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal(silver) and era(modern) | Works as expected |
-| Filter | Click 'Silver' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal(gold) | Works as expected |
-| Filter | Click 'Bronze' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal(bronze) and era(ancient) | Works as expected |
-| Filter | Click 'Bronze' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal(bronze) and era(medium) | Works as expected |
-| Filter | Click 'Bronze' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal(bronze) and era(modern) | Works as expected |
-| Filter | Click 'Bronze' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal(bronze) and era(modern) | Works as expected |
+| Filter | Click 'Golden' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal (gold) and era (ancient) | Works as expected |
+| Filter | Click 'Golden' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal (gold) and era (medium) | Works as expected |
+| Filter | Click 'Golden' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal (gold) and era (modern) | Works as expected |
+| Filter | Click 'Golden' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal (gold) | Works as expected |
+| Filter | Click 'Silver' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal (silver) and era (ancient) | Works as expected |
+| Filter | Click 'Silver' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal (silver) and era (medium) | Works as expected |
+| Filter | Click 'Silver' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal (silver) and era (modern) | Works as expected |
+| Filter | Click 'Silver' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal (gold) | Works as expected |
+| Filter | Click 'Bronze' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal (bronze) and era (ancient) | Works as expected |
+| Filter | Click 'Bronze' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal (bronze) and era (medium) | Works as expected |
+| Filter | Click 'Bronze' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal (bronze) and era (modern) | Works as expected |
+| Filter | Click 'Bronze' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal (bronze) and era (modern) | Works as expected |
 
   <details><summary>Screenshot</summary>
 
@@ -1144,7 +1144,7 @@ The project was tested using 2 methods:
 
   </details>
 
-7. As a user I can preview each coin so that coins's information can be viewed
+7. As a user I can preview each coin so that coin's information can be viewed
 
   | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
@@ -1152,7 +1152,7 @@ The project was tested using 2 methods:
 | Coin details | Navigate to coin details page | Coin image, name, metal, condition, origin, year, tag, price and description are displayed and correctly aligned | Works as expected |
 | Coin details | Navigate to coin details page | Add to cart button is displayed | Works as expected |
 | Coin details | Navigate to unique coin details page | 'Unique' mark is displayed and there is no menu to increment/decrement coin amount | Works as expected |
-| Coin details | Navigate to non-unique coin details page | 'Unique' mark is not displayed and there is menu to increment/decrement coin amount | Works as expected |
+| Coin details | Navigate to non-unique coin details page | 'Unique' mark is not displayed and there is a menu to increment/decrement coin amount | Works as expected |
 | Coin details | Navigate to coin details page | 'Keep exploring' button is displayed and leading to Coins page once clicked | Works as expected |
 | Coin details | Click coin tag | Navigated to Coins page with correctly filtered results | Works as expected |
 | Coin details | Navigate to coin details page (admin only) | Edit/Delete menu is displayed | Works as expected |
@@ -1169,7 +1169,7 @@ The project was tested using 2 methods:
 
   </details>
 
-8. As a user I can use coin ordering so that coins can be sorted by price, origin, condition, name and era.
+8. As a user I can use coin ordering so that coins can be sorted by price, origin, condition, name, and era.
 
   | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
@@ -1214,7 +1214,7 @@ The project was tested using 2 methods:
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
 | Add to Cart | Click 'Add to Cart' on the coin details page | Coin is added to cart and correct success message is displayed | Works as expected |
 | Add to Cart | Click 'Add to Cart' on the unique coin details page | Only 1 coin is added to cart and correct success message is displayed | Works as expected |
-| Add to Cart | Click 'Add to Cart' on the unique coin which already is in the cart | Unique coins amount is not changed and the correct info message is displayed | Works as expected |
+| Add to Cart | Click 'Add to Cart' on the unique coin which is already in the cart | Unique coins amount is not changed and the correct info message is displayed | Works as expected |
 | Add to Cart | Increment coins amount and click 'Add to Cart' on the non-unique coin details page | Correct amount of coins is added to the cart, total price updated correctly | Works as expected |
 
   <details><summary>Screenshot</summary>
@@ -1333,19 +1333,19 @@ The project was tested using 2 methods:
 
   </details>
 
-15. As a user I can access profile page so that delivery information can be added/amended and order history can be viewed.
+15. As a user I can access the profile page so that delivery information can be added/amended and order history can be viewed.
 
   | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
 | My Profile | Click 'My Account' when not logged in | 'My Profile' is not displayed in the menu | Works as expected |
 | My Profile | Click 'My Account' when logged in | 'My Profile' is displayed in the menu | Works as expected |
 | My Profile | Click 'My Profile' in 'My Account' menu | Navigated to 'My Profile' page | Works as expected |
-| My Profile | Naviga to 'My Profile' page | Delivery information form is displayed | Works as expected |
+| My Profile | Navigate to 'My Profile' page | Delivery information form is displayed | Works as expected |
 | My Profile | Process a checkout without saving the delivery information and navigate to 'My Profile' | Delivery information form is not filled | Works as expected |
 | My Profile | Process a checkout and save the delivery information, then navigate to 'My Profile' | Delivery information form has the correct information | Works as expected |
-| My Profile | Update the dilivery information | Delivery information is correctly saved | Works as expected |
-| My Profile | Navigate to 'My Profile' when there were no orders processed in the past | Order history is empty | Works as expected |
-| My Profile | Navigate to 'My Profile' when there were orders processed | Order history is displayed and correct | Works as expected |
+| My Profile | Update the delivery information | Delivery information is correctly saved | Works as expected |
+| My Profile | Navigate to 'My Profile' when orders were processed in the past | Order history is empty | Works as expected |
+| My Profile | Navigate to 'My Profile' orders were processed | Order history is displayed and correct | Works as expected |
 | My Profile | Click on the order number | Navigated to order information page; information is correct | Works as expected |
 | My Profile | Navigate to the order details page | 'Back to Profile' button is displayed and leading to profile page | Works as expected |
 
@@ -1444,7 +1444,7 @@ The project was tested using 2 methods:
 | Login | Enter an email to forgot password field and click 'Reset my Password' | Confirmation message displayed and password reset link is sent to the email | Works as expected |
 | Login | Use the password reset link | Navigated to password change page | Works as expected |
 | Login | Use mismathing passwords in password change form | Password is not set and the error is displayed | Works as expected |
-| Login | Use mathing passwords in password change form | Password is set and it's possible to login using it | Works as expected |
+| Login | Use matching passwords in password change form | Password is set and it's possible to login using it | Works as expected |
 
   <details><summary>Screenshot</summary>
 
@@ -1482,7 +1482,7 @@ The project was tested using 2 methods:
 
   </details>
 
-18. As a admin I can access coins management so that new coins can be added to the store.
+18. As an admin I can access coins management so that new coins can be added to the store.
 
 | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
@@ -1510,7 +1510,7 @@ The project was tested using 2 methods:
 
   </details>
 
-19. As a admin I can access coin edit page so that coin information can be modified or deleted.
+19. As an admin I can access coin edit page so that coin information can be modified or deleted.
 
 | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
 | ------------- | ----------------------------- | ---------------------------- | ----------------- |
@@ -1518,7 +1518,7 @@ The project was tested using 2 methods:
 | Edit Coins | Click 'Edit' on any coin details page | Navigated to coin edit form | Works as expected |
 | Edit Coins | Click 'Edit' on any coin details page | Navigated to coin edit form | Works as expected |
 | Edit Coins | Leave mandatory fields empty on the coin edit page and update | The form is not saved | Works as expected |
-| Edit Coins | Edit coin information and update | Navigated to coin details page and the information correctly updated | Works as expected |
+| Edit Coins | Edit coin information and update | Navigated to coin details page and the information is correctly updated | Works as expected |
 | Edit Coins | Delete the coin on all coins page | Coin is deleted and no longer visible in the store | Works as expected |
 | Edit Coins | Delete the coin on coin details page | Coin is deleted and no longer visible in the store | Works as expected |
 
@@ -1579,16 +1579,16 @@ The project was tested using 2 methods:
 | **Bug** | **Fix** |
 | ------- | ------- |
 | Increment/decrement menu was available for unique coins on smaller screens | Added styles for smaller screens to make sure the amount of unique coins can't be incremented |
-| It was able to add to cart more coins than there was in stock | Created validation to prevent adding excessive amount of coins to the cart |
-| It was able to checkout having more coins than there is in stock | Added validation to chechout view that prevents successful checkout in case if there is unsufficient coin amount in the stock |
+| It was able to add to cart more coins than there were in stock | Created validation to prevent adding excessive amount of coins to the cart |
+| It was able to checkout having more coins than there is in stock | Added validation to checkout view that prevents successful checkout in case if there is unsufficient coin amount in the stock |
 | Was able to add a unique coin to cart multiple times | Validation added to check whether the unique is not in the cart already |
 
 ### Unfixed bugs
 
 | **Bug** | **Fix** |
 | ------- | ------- |
-| When checking out simulteniously from multiple windows that would result in insufficient coins in the stock, python validation is working as expected, however JS is still sending order to Stripe as successful, and the success email is sending to user | Need to add a validation to JS function that is triggered on 'Complete Order' event |
-| When navigating to checkout page with empty cart the error 500 is returned and site logo disappears | Validation is needed to make sure it's redirecting to Coins page when trying to access checkout page with empty cart |
+| When checking out simultaneously from multiple windows that would result in insufficient coins in the stock, python validation is working as expected. However, JS is still sending order to Stripe as successful, and the success email is sending to user | Need to add a validation to JS function that is triggered on 'Complete Order' event |
+| When navigating to checkout page with empty cart, the error 500 is returned and site logo disappears | Validation is needed to make sure it's redirecting to Coins page when trying to access checkout page with empty cart |
 | When on checkout page and adding more items to cart from another window, it would end up in incorrect coins amount in the order | Additional check is needed on 'Complete Order' event, if the cart contents has changed, then stop the checkout process and add a corresponding info message |
 
 ## Deployment
