@@ -1359,3 +1359,52 @@ The project was tested using 2 methods:
   ![Screenshot](media/profile-update-testing.JPG)
 
   </details>
+
+16. As a user I can access Sign Up menu so that it's possible to create an account.
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Sign Up | Click 'Register' in 'My Account' when not logged in | Navigated to sign up form | Works as expected |
+| Sign Up | Navigate to 'Register' page | Elements are aligned properly | Works as expected |
+| Sign Up | Enter existing username | Validation error is displayed | Works as expected |
+| Sign Up | Leave fields empty and click 'Sign Up' | Validation errors are displayed | Works as expected |
+| Sign Up | Click 'sign in' link | Navigated to Login page | Works as expected |
+| Sign Up | Use correct data to create an account | Account is successfully created | Works as expected |
+| Sign Up | Create a new account | Email confirmation is sent to the email | Works as expected |
+| Sign Up | Confirm the email | Account is confirmed and it's possible to log in | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/register-complete-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/register-confirm-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/register-email-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/register-existing-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/register-form-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/register-menu-testing.JPG)
+
+  </details>
