@@ -1527,4 +1527,26 @@ The project was tested using 2 methods:
 
   </details>
 
+</details>
+
 ### Automated Testing
+
+<details><summary>Unit testing</summary>
+
+1. Unit tests were written using 'unittest' library.
+2. Tests are designed for pages to make sure status code 200 is returned when rendered.
+3. assertEqual() and assertTemplateUsed() methods were used.
+
+  <details><summary>Unit test pass scenario</summary>
+
+  ![Pass](media/automated-tests-testing.JPG)
+
+  </details>
+
+  <details><summary>Unit test fail scenario</summary>
+
+  ![Fail](media/automated-tests-fail-testing.JPG)
+
+  </details>
+  
+</details>
