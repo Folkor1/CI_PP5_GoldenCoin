@@ -1124,3 +1124,28 @@ The project was tested using 2 methods:
   ![Screenshot](media/badge-testing.JPG)
 
   </details>
+
+7. As a user I can preview each coin so that coins's information can be viewed
+
+  | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Coin details | Click on coin badge on the Coins page | Navigated to the coin details page | Works as expected |
+| Coin details | Navigate to coin details page | Coin image, name, metal, condition, origin, year, tag, price and description are displayed and correctly aligned | Works as expected |
+| Coin details | Navigate to coin details page | Add to cart button is displayed | Works as expected |
+| Coin details | Navigate to unique coin details page | 'Unique' mark is displayed and there is no menu to increment/decrement coin amount | Works as expected |
+| Coin details | Navigate to non-unique coin details page | 'Unique' mark is not displayed and there is menu to increment/decrement coin amount | Works as expected |
+| Coin details | Navigate to coin details page | 'Keep exploring' button is displayed and leading to Coins page once clicked | Works as expected |
+| Coin details | Click coin tag | Navigated to Coins page with correctly filtered results | Works as expected |
+| Coin details | Navigate to coin details page (admin only) | Edit/Delete menu is displayed | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/coin-details-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/coin-details-non-unique-testing.JPG)
+
+  </details>
