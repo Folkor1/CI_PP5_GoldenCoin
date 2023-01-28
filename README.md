@@ -1462,3 +1462,31 @@ The project was tested using 2 methods:
   ![Screenshot](media/login-testing.JPG)
 
   </details>
+
+18. As a admin I can access coins management so that new coins can be added to the store.
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Coin Management | Click 'Coin Management' in 'My Account' when logged in as admin | Navigated to Coins Management Page | Works as expected |
+| Coin Management | Navigate to Coin Management page | Add coin form is displayed and correctly aligned | Works as expected |
+| Coin Management | Click 'Add Coins' without filling all mandatory fields | Coins are not added to the store | Works as expected |
+| Coin Management | Click 'Add Coins' when all mandatory fields are filled | Navigated to the new coin details page and the success message is displayed | Works as expected |
+| Coin Management | Add a new coin to the store | The new coin is displayed on all coins page | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/manage-add-coins-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/manage-coins-added-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/manage-menu-testing.JPG)
+
+  </details>
