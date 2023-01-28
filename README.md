@@ -1421,3 +1421,44 @@ The project was tested using 2 methods:
 | Login | Enter existing username and incorrect password | Validation error is displayed | Works as expected |
 | Login | Enter correct username and password | User is successfully authorized | Works as expected |
 | Login | Tick 'Remember me' and login | Username is saved to autofill | Works as expected |
+| Login | Click 'Forgot Password' | Navigated to 'Forgot Password' page | Works as expected |
+| Login | Enter an email to forgot password field and click 'Reset my Password' | Confirmation message displayed and password reset link is sent to the email | Works as expected |
+| Login | Use the password reset link | Navigated to password change page | Works as expected |
+| Login | Use mismathing passwords in password change form | Password is not set and the error is displayed | Works as expected |
+| Login | Use mathing passwords in password change form | Password is set and it's possible to login using it | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/login-incorrect-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/login-password-change-not-matching-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/login-password-change-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/login-password-reset-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/login-reset-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/login-testing.JPG)
+
+  </details>
