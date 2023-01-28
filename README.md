@@ -1166,3 +1166,25 @@ The project was tested using 2 methods:
   ![Screenshot](media/ordering-testing.JPG)
 
   </details>
+
+9. As a user I can open the cart so that cart contents can be viewed and modified.
+
+  | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Cart | Navigate to empty cart | No coins are displayed and 'Keep exploring' button is showing | Works as expected |
+| Cart | Navigate to cart with coins in it | Coin image, name, SKU, quantity, cart total, subtotal, delivery fee and grand total are displayed and correctly aligned | Works as expected |
+| Cart | Navigate to cart with unique coins | Amount of unique coins can't be incremented | Works as expected |
+| Cart | Navigate to cart with non-unique coins | Amount of unique coins can be incremented, subtotal, total and grand prices are updating correctly, correct success message is displayed | Works as expected |
+| Cart | Remove coins from cart | Coins are no longer displayed in the cart, prices are updating correctly and correct success message is displayed | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/cart-empty-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/cart-testing.JPG)
+
+  </details>
