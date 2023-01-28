@@ -30,6 +30,7 @@ Admin privileges include adding, removing and modifying coins data.
     - [Frameworks](#frameworks)
     - [Libraries and Tools](#libraries-and-tools)
   - [Features](#features)
+  - [Marketing](#Marketing)
   - [Validation](#validation)
   - [Testing](#testing)
     - [Manual Testing](#manual-testing)
@@ -586,6 +587,24 @@ The model contains:
 ![Forgot Password screenshot](media/forgot-readme.JPG)
 
 </details>
+
+## Marketing
+
+The approach for promoting Golden Coin project includes social media marketing and email marketing.
+
+### Social media marketing
+This type of marketing allows to access a large volume of user interactions, such as views, likes, reposts. A wide range of additional tools can also help to improve these stats.
+
+![Facebook screenshot](media/facebook-hat-readme.JPG)
+
+![Facebook screenshot](media/facebook-posts-readme.JPG)
+
+### Email marketing
+Proper use of mailing lists may significantly expand the potential clients base, as well as retain existing ones.
+
+![Mailchimp screenshot](media/sub-readme.JPG)
+
+![Mailchimp screenshot](media/sub-success-readme.JPG)
 
 ## Validation
 
