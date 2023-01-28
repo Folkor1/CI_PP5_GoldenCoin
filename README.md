@@ -1045,3 +1045,42 @@ The project was tested using 2 methods:
 
   </details>
 
+4. As a user I can access all coins link so that all available coins can be viewed.
+
+  | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Coins | Navigate to Coins page | All coins available in the store are displayed | Works as expected |
+| Coins | Navigate to Coins page | Coins amount is displayed and correct | Works as expected |
+| Coins | Sort the page by price (low to high) | Coins sorted on the page by price low to high | Works as expected |
+| Coins | Sort the page by price (high to low) | Coins sorted on the page by price high to low | Works as expected |
+| Coins | Sort the page by name (A-Z) | Coins sorted on the page by name A-Z | Works as expected |
+| Coins | Sort the page by name (Z-A) | Coins sorted on the page by name Z-A | Works as expected |
+| Coins | Sort the page by era (ancient-modern) | Coins sorted on the page by era ancient-modern | Works as expected |
+| Coins | Sort the page by era (modern-ancient) | Coins sorted on the page by era modern-ancient | Works as expected |
+| Coins | Click on 'Gold' tag | Only coins with 'Gold' tag are displayed on the page | Works as expected |
+| Coins | Click on 'Silver' tag | Only coins with 'Silver' tag are displayed on the page | Works as expected |
+| Coins | Click on 'Bronze' tag | Only coins with 'Bronze' tag are displayed on the page | Works as expected |
+| Coins | Enter 'revolution' into search bar | Only coins containing 'revolution' in description are displayed | Works as expected |
+| Coins | Click 'Coins Home' | All available in the store coins are displayed | Works as expected |
+| Coins | Click 'Edit' on any coin (admin only) | Navigated to edit page with the correct coin id | Works as expected |
+| Coins | Click 'Delete' on any coin (admin only) | Coin is no longer displayed in the store | Works as expected |
+| Coins | Scroll down to the bottom and click auto scroll up icon | Navigated to the top of the page | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/coins-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/coins-sorting-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/coins-filter-testing.JPG)
+
+  </details>
+
