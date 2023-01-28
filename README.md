@@ -1188,3 +1188,24 @@ The project was tested using 2 methods:
   ![Screenshot](media/cart-testing.JPG)
 
   </details>
+
+10. As a user I can add coins to cart so that coins are added to cart and overall price is visible.
+
+  | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Add to Cart | Click 'Add to Cart' on the coin details page | Coin is added to cart and correct success message is displayed | Works as expected |
+| Add to Cart | Click 'Add to Cart' on the unique coin details page | Only 1 coin is added to cart and correct success message is displayed | Works as expected |
+| Add to Cart | Click 'Add to Cart' on the unique coin which already is in the cart | Unique coins amount is not changed and the correct info message is displayed | Works as expected |
+| Add to Cart | Increment coins amount and click 'Add to Cart' on the non-unique coin details page | Correct amount of coins is added to the cart, total price updated correctly | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/add-to-cart-msg-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/add-to-cart-already-in-cart-testing.JPG)
+
+  </details>
