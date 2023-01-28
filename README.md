@@ -1022,3 +1022,26 @@ The project was tested using 2 methods:
 
   </details>
 
+3. As a user I can view the footer so that social media and contact forms can be accessed
+
+  | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Footer | Navigate through different pages of the app | Footer links are displayed on all pages of the app | Works as expected |
+| Footer | Click social media link icon | Correct page is opening in separate tab | Works as expected |
+| Footer | Click 'Contact' | Navigated to 'Contact' page | Works as expected |
+| Footer | Click 'Sell' | Navigated to 'Sell' page | Works as expected |
+| Footer | Click 'Subscribe' | Subscribe menu popped up | Works as expected |
+| Footer | Hover onto footer icons | Styling correctly changes on hover | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/footer-hover-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/footer-subscribe-testing.JPG)
+
+  </details>
+
