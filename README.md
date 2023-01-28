@@ -1209,3 +1209,86 @@ The project was tested using 2 methods:
   ![Screenshot](media/add-to-cart-already-in-cart-testing.JPG)
 
   </details>
+
+11. As a user I can access the checkout page so that delivery and payment information can be entered to process the purchase.
+
+  | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Checkout | Click 'Secure Checkout' on the cart page | Navigated to checkout page | Works as expected |
+| Checkout | Navigate to empty cart page | 'Secure Checkout' button is not displayed | Works as expected |
+| Checkout | Navigate to Checkout page | All delivery form fields are displayed | Works as expected |
+| Checkout | Click 'Complete Order' without filling mandatory fields | Invalidation error is shown and the order is not processed | Works as expected |
+| Checkout | Navigate to Checkout page when not logged in | Form fields are displayed; there is a message suggesting to login or register  | Works as expected |
+| Checkout | Navigate to Checkout page when logged in | There is a tick box to save the delivery information | Works as expected |
+| Checkout | Navigate to Checkout page when logged in and there is saved profile information | Fields are pre-populated with the saved delivery information | Works as expected |
+| Checkout | Process the checkout when logged in and without saving the delivery information | Delivery information is not saved to profile | Works as expected |
+| Checkout | Navigate to Checkout page | Order summary is displayed; subtotal, total price, delivery and grand total are displayed | Works as expected |
+| Checkout | Fill invalid payment details to the payment form | Invalidation error is correctly shown | Works as expected |
+| Checkout | Fill valid payment details and click 'Complete Order' | Loading screen is shown; 'Complete Order' button and payment form are not available | Works as expected |
+| Checkout | Navigate to Checkout page | 'Adjust Cart' button is displayed and leading to the cart page | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/checkout-logged-in-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/checkout-not-logged-in-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/checkout-payment-invalid.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/checkout-loading-testing.JPG)
+
+  </details>
+
+12. As a user I can complete the order so that order is confirmed and order number is available.
+
+  | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Checkout Success | Submit the checkout | Navigated to checkout success page | Works as expected |
+| Checkout Success | Submit the checkout | Success message is displayed with order number | Works as expected |
+| Checkout Success | Submit the checkout | Order number, date, delivery and billing information is displayed | Works as expected |
+| Checkout Success | Submit the checkout | 'Back to Coins' button is displayed and leading to the Coins page | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/success-message-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/success-order-info-testing.JPG)
+
+  </details>
+
+13. As a user I can access the coin sell form so that the form can be populated with the coin offer.
+
+  | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Sell | Click 'Sell Coins' in footer | Navigated to sell coins form | Works as expected |
+| Sell | Navigate to Sell Coins page | Sell form is displayed | Works as expected |
+| Sell | Submit the form without filling the mandatory fields | Form is not submitted | Works as expected |
+| Sell | Submit the form correct information | Form not submitted and the correct success message is displayed | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/sell-coins-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/sell-msg-testing.JPG)
+
+  </details>
