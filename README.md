@@ -962,3 +962,63 @@ The project was tested using 2 methods:
   ![Screenshot](media/home-scaling-testing.JPG)
 
   </details>
+
+2. As a user I can use navigation links and search bar so that site pages and search results can be viewed.
+
+  | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Navbar | Click app's logo | Navigated to home page | Works as expected |
+| Navbar | Enter query into search bar and click search button | Navigated to 'Coins' page with the results properly filtered | Works as expected |
+| Navbar | Click 'All Coins' -> 'By Price' | Navigated to 'Coins' page with coins sorted by price (high to low) | Works as expected |
+| Navbar | Click 'All Coins' -> 'By Origin' | Navigated to 'Coins' page with coins sorted by origin (alphabetic order A-Z) | Works as expected |
+| Navbar | Click 'All Coins' -> 'By Condition' | Navigated to 'Coins' page with coins sorted by condition (uncirculated - fair) | Works as expected |
+| Navbar | Click 'All Coins' -> 'All Coins' | Navigated to 'Coins' page with all coins displayed | Works as expected |
+| Navbar | Click 'Golden' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal(gold) and era(ancient) | Works as expected |
+| Navbar | Click 'Golden' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal(gold) and era(medium) | Works as expected |
+| Navbar | Click 'Golden' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal(gold) and era(modern) | Works as expected |
+| Navbar | Click 'Golden' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal(gold) | Works as expected |
+| Navbar | Click 'Silver' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal(silver) and era(ancient) | Works as expected |
+| Navbar | Click 'Silver' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal(silver) and era(medium) | Works as expected |
+| Navbar | Click 'Silver' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal(silver) and era(modern) | Works as expected |
+| Navbar | Click 'Silver' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal(gold) | Works as expected |
+| Navbar | Click 'Bronze' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal(bronze) and era(ancient) | Works as expected |
+| Navbar | Click 'Bronze' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal(bronze) and era(medium) | Works as expected |
+| Navbar | Click 'Bronze' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal(bronze) and era(modern) | Works as expected |
+| Navbar | Click 'Bronze' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal(bronze) and era(modern) | Works as expected |
+| Navbar | Click 'My Account' -> 'Coins Management' | Navigated to 'Coins Management' page | Works as expected |
+| Navbar | Click 'My Account' -> 'My Profile' | Navigated to 'My Profile' page | Works as expected |
+| Navbar | Click 'My Account' -> 'Register' | Navigated to 'Sign Up' page | Works as expected |
+| Navbar | Click 'My Account' -> 'Login'  | Navigated to 'Login' page | Works as expected |
+| Navbar | Click 'My Account' -> 'Logout' | Navigated to 'Logout' page | Works as expected |
+| Navbar | Click $ Total | Navigated to 'Cart' page | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/navbar-all-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/navbar-gold-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/navbar-silver-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/navbar-bronze-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/account-testing.JPG)
+
+  </details>
+
