@@ -1,12 +1,12 @@
 from django.test import TestCase
 
 
-class TestViewBag(TestCase):
+class TestViewCoins(TestCase):
     """
     Class to test coins page views
     """
 
-    def test_render_bag_page(self):
+    def test_render_coins_page(self):
         """
         Check if coins.html is rendered correctly
         """
