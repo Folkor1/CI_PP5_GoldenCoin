@@ -1572,3 +1572,33 @@ The project was tested using 2 methods:
 | When navigating to checkout page with empty cart the error 500 is returned and site logo disappears | Validation is needed to make sure it's redirecting to Coins page when trying to access checkout page with empty cart |
 | When on checkout page and adding more items to cart from another window, it would end up in incorrect coins amount in the order | Additional check is needed on 'Complete Order' event, if the cart contents has changed, then stop the checkout process and add a corresponding info message |
 
+## Deployment
+
+### Heroku
+
+The project was deployed using Heroku by the following steps:
+
+1. Install Django and gunicorn
+2. Install dj_database_url and psycopg2
+3. Add them to requirements file by entering: pip3 freeze --local > requirements.txt
+4. Create or log in to your account at heroku.com
+5. Click 'New' -> 'Create new app'
+6. Type in the app name (current project name is 'goldencoin') -> select the region -> 'Create app'
+7. Create Procfile (web: gunicorn golden_coin.wsgi)
+8. Add Heroku to allowed hosts in Settings.py file (ALLOWED_HOSTS = ["goldencoin.herokuapp.com", "localhost"])
+9. Set DEBUG to False in Settings.py file
+10. Navigate to Heroku -> 'Settings' tab -> Reveal Config Vars -> remove DISABLE_COLLECTSTATIC and ensure the following keys and their values are present:
+- AWS_ACCESS_KEY_ID
+- AWS_SECRET_ACCESS_KEY
+- DATABASE_URL
+- EMAIL_HOST_PASS
+- EMAIL_HOST_USER
+- SECRET_KEY
+- STRIPE_PUBLIC_KEY
+- STRIPE_SECRET_KEY
+- STRIPE_WH_SECRET
+- USE_AWS
+11. Navigate to 'Deploy' tab
+12. Select 'GitHub' in the 'Deployment method' area
+13. Enter the GitHub repository name in the search bar -> 'Connect'
+14. Click 'Deploy Branch' and wait for it to be built
