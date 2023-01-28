@@ -932,3 +932,33 @@ The model contains:
   </details>
 
 </details>
+
+[Back to Table Of Contents](#table-of-contents)
+
+The project was tested using 2 methods:
+- Manual
+- Automated testing
+
+### Manual Testing
+
+<details><summary>User stories testing</summary>
+
+1. As a user I can access the home page so that general site information and navigation can be viewed.
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Home page | Load the page | Images and content are correctly aligned | Works as expected |
+| Home page | Click 'Explore' button | Coins page is rendered | Works as expected |
+| Home page | Change resolution from 1600px to 320px | Elements are correctly aligned | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/home-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/home-scaling-testing.JPG)
+
+  </details>
