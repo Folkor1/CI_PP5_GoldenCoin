@@ -1149,3 +1149,20 @@ The project was tested using 2 methods:
   ![Screenshot](media/coin-details-non-unique-testing.JPG)
 
   </details>
+
+8. As a user I can use coin ordering so that coins can be sorted by price, origin, condition, name and era.
+
+  | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Ordering | Sort the page by price (low to high) | Coins sorted on the page by price low to high | Works as expected |
+| Ordering | Sort the page by price (high to low) | Coins sorted on the page by price high to low | Works as expected |
+| Ordering | Sort the page by name (A-Z) | Coins sorted on the page by name A-Z | Works as expected |
+| Ordering | Sort the page by name (Z-A) | Coins sorted on the page by name Z-A | Works as expected |
+| Ordering | Sort the page by era (ancient-modern) | Coins sorted on the page by era ancient-modern | Works as expected |
+| Ordering | Sort the page by era (modern-ancient) | Coins sorted on the page by era modern-ancient | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/ordering-testing.JPG)
+
+  </details>
