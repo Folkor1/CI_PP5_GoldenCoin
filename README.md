@@ -499,7 +499,7 @@ The model contains:
 - Once the form is successfully submitted the item appears on the coins page.
 - Covered by user story 18
 
-<details><summary>Show Coin Management History screenshot</summary>
+<details><summary>Show Coin Management screenshot</summary>
 
 ![Coin Management screenshot](media/management-readme.JPG)
 
@@ -512,7 +512,7 @@ The model contains:
 - Coin data can be modified in the form.
 - Covered by user story 19
 
-<details><summary>Show Edit Coins History screenshot</summary>
+<details><summary>Show Edit Coins screenshot</summary>
 
 ![Edit Coins screenshot](media/edit-readme.JPG)
 
