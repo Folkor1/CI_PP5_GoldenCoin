@@ -1580,15 +1580,15 @@ The project was tested using 2 methods:
 | ------- | ------- |
 | Increment/decrement menu was available for unique coins on smaller screens | Added styles for smaller screens to make sure the amount of unique coins can't be incremented |
 | It was able to add to cart more coins than there were in stock | Created validation to prevent adding excessive amount of coins to the cart |
-| It was able to checkout having more coins than there is in stock | Added validation to checkout view that prevents successful checkout in case if there is unsufficient coin amount in the stock |
-| Was able to add a unique coin to cart multiple times | Validation added to check whether the unique is not in the cart already |
+| It was able to checkout having more coins than there were in stock | Added validation to checkout view that prevents successful checkout in case if there is unsufficient coin amount in the stock |
+| Was able to add a unique coin to cart multiple times | Validation added to check whether the unique coin is not in the cart already |
 
 ### Unfixed bugs
 
 | **Bug** | **Fix** |
 | ------- | ------- |
 | When checking out simultaneously from multiple windows that would result in insufficient coins in the stock, python validation is working as expected. However, JS is still sending order to Stripe as successful, and the success email is sending to user | Need to add a validation to JS function that is triggered on 'Complete Order' event |
-| When navigating to checkout page with empty cart, the error 500 is returned and site logo disappears | Validation is needed to make sure it's redirecting to Coins page when trying to access checkout page with empty cart |
+| When navigating to checkout page by editing the URL with empty cart, the error 500 is returned and site logo disappears | Validation is needed to make sure it's redirecting to Coins page when trying to access checkout page with empty cart |
 | When on checkout page and adding more items to cart from another window, it would end up in incorrect coins amount in the order | Additional check is needed on 'Complete Order' event, if the cart contents has changed, then stop the checkout process and add a corresponding info message |
 
 ## Deployment
