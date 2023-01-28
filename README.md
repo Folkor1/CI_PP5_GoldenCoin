@@ -1526,3 +1526,5 @@ The project was tested using 2 methods:
   ![Screenshot](media/edit-updated-testing.JPG)
 
   </details>
+
+### Automated Testing
