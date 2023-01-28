@@ -1638,3 +1638,7 @@ The project was deployed using Heroku by the following steps:
 - [Stack overflow](https://stackoverflow.com) was used to find answers related to the correct syntax use.
 - [Pixabay](https://pixabay.com/) was used to get images.
 - [designevo](https://www.designevo.com/) was used to create app's logo.
+
+### The basis of this work is taken from Boutique Ado project provided by Code Institute
+https://github.com/Code-Institute-Solutions/boutique_ado_v1/tree/250e2c2b8e43cccb56b4721cd8a8bd4de6686546
+
