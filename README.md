@@ -1408,3 +1408,16 @@ The project was tested using 2 methods:
   ![Screenshot](media/register-menu-testing.JPG)
 
   </details>
+
+17. As a user I can access the login menu so that it's possible to log in to the site.
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Login | Click 'Login' in 'My Account' when not logged in | Navigated to Login page | Works as expected |
+| Login | Navigate to 'Login' page | Elements are aligned properly | Works as expected |
+| Login | Click 'sign up' link | Navigated to Sign Up page | Works as expected |
+| Login | Enter non-existing username | Validation error is displayed | Works as expected |
+| Login | Leave empty fields and click 'Login' | Validation error is displayed | Works as expected |
+| Login | Enter existing username and incorrect password | Validation error is displayed | Works as expected |
+| Login | Enter correct username and password | User is successfully authorized | Works as expected |
+| Login | Tick 'Remember me' and login | Username is saved to autofill | Works as expected |
