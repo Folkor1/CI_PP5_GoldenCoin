@@ -1279,7 +1279,7 @@ The project was tested using 2 methods:
 | Sell | Click 'Sell Coins' in footer | Navigated to sell coins form | Works as expected |
 | Sell | Navigate to Sell Coins page | Sell form is displayed | Works as expected |
 | Sell | Submit the form without filling the mandatory fields | Form is not submitted | Works as expected |
-| Sell | Submit the form correct information | Form not submitted and the correct success message is displayed | Works as expected |
+| Sell | Submit the form correct information | Form is submitted and the correct success message is displayed | Works as expected |
 
   <details><summary>Screenshot</summary>
 
@@ -1290,5 +1290,26 @@ The project was tested using 2 methods:
   <details><summary>Screenshot</summary>
 
   ![Screenshot](media/sell-msg-testing.JPG)
+
+  </details>
+
+14. As a user I can submit the contact form so that site owners can be contacted.
+
+  | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Contact | Click 'Contact' in footer | Navigated to contact form | Works as expected |
+| Contact | Navigate to Contact page | Contact form is displayed | Works as expected |
+| Contact | Submit the form without filling the mandatory fields | Form is not submitted | Works as expected |
+| Contact | Submit the form filling all mandatory fields | Form is submitted and the correct success message is displayed |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/contact-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/contact-msg-testing.JPG)
 
   </details>
