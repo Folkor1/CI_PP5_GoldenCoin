@@ -1313,3 +1313,49 @@ The project was tested using 2 methods:
   ![Screenshot](media/contact-msg-testing.JPG)
 
   </details>
+
+15. As a user I can access profile page so that delivery information can be added/amended and order history can be viewed.
+
+  | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| My Profile | Click 'My Account' when not logged in | 'My Profile' is not displayed in the menu | Works as expected |
+| My Profile | Click 'My Account' when logged in | 'My Profile' is displayed in the menu | Works as expected |
+| My Profile | Click 'My Profile' in 'My Account' menu | Navigated to 'My Profile' page | Works as expected |
+| My Profile | Naviga to 'My Profile' page | Delivery information form is displayed | Works as expected |
+| My Profile | Process a checkout without saving the delivery information and navigate to 'My Profile' | Delivery information form is not filled | Works as expected |
+| My Profile | Process a checkout and save the delivery information, then navigate to 'My Profile' | Delivery information form has the correct information | Works as expected |
+| My Profile | Update the dilivery information | Delivery information is correctly saved | Works as expected |
+| My Profile | Navigate to 'My Profile' when there were no orders processed in the past | Order history is empty | Works as expected |
+| My Profile | Navigate to 'My Profile' when there were orders processed | Order history is displayed and correct | Works as expected |
+| My Profile | Click on the order number | Navigated to order information page; information is correct | Works as expected |
+| My Profile | Navigate to the order details page | 'Back to Profile' button is displayed and leading to profile page | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/profile-empty-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/profile-history-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/profile-no-order-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/profile-order-details-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/profile-update-testing.JPG)
+
+  </details>
