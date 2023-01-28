@@ -1084,3 +1084,43 @@ The project was tested using 2 methods:
 
   </details>
 
+  5. As a user I can use filter coins so that different categories of coins can be grouped on the same view.
+
+  | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Filter | Click 'All Coins' -> 'By Price' | Navigated to 'Coins' page with coins sorted by price (high to low) | Works as expected |
+| Filter | Click 'All Coins' -> 'By Origin' | Navigated to 'Coins' page with coins sorted by origin (alphabetic order A-Z) | Works as expected |
+| Filter | Click 'All Coins' -> 'By Condition' | Navigated to 'Coins' page with coins sorted by condition (uncirculated - fair) | Works as expected |
+| Filter | Click 'All Coins' -> 'All Coins' | Navigated to 'Coins' page with all coins displayed | Works as expected |
+| Filter | Click 'Golden' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal(gold) and era(ancient) | Works as expected |
+| Filter | Click 'Golden' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal(gold) and era(medium) | Works as expected |
+| Filter | Click 'Golden' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal(gold) and era(modern) | Works as expected |
+| Filter | Click 'Golden' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal(gold) | Works as expected |
+| Filter | Click 'Silver' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal(silver) and era(ancient) | Works as expected |
+| Filter | Click 'Silver' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal(silver) and era(medium) | Works as expected |
+| Filter | Click 'Silver' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal(silver) and era(modern) | Works as expected |
+| Filter | Click 'Silver' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal(gold) | Works as expected |
+| Filter | Click 'Bronze' -> 'Ancient' | Navigated to 'Coins' page with filtered results by metal(bronze) and era(ancient) | Works as expected |
+| Filter | Click 'Bronze' -> 'Medium' | Navigated to 'Coins' page with filtered results by metal(bronze) and era(medium) | Works as expected |
+| Filter | Click 'Bronze' -> 'Modern' | Navigated to 'Coins' page with filtered results by metal(bronze) and era(modern) | Works as expected |
+| Filter | Click 'Bronze' -> 'All Coins' | Navigated to 'Coins' page with filtered results by metal(bronze) and era(modern) | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/filter-testing.JPG)
+
+  </details>
+
+6. As a user I can view coins as badges on the coins page so that all relevant each coin's information and price can be viewed.
+
+  | **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Badges | Navigate to Coins page | All coins are displayed as badges | Works as expected |
+| Badges | Navigate to Coins page | Coin image, name, metal, condition, origin, year, tag and price are displayed and correctly aligned | Works as expected |
+| Badges | Navigate to Coins page (admin only) | Edit/Delete menu is displayed on each coin | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/badge-testing.JPG)
+
+  </details>
