@@ -1490,3 +1490,39 @@ The project was tested using 2 methods:
   ![Screenshot](media/manage-menu-testing.JPG)
 
   </details>
+
+19. As a admin I can access coin edit page so that coin information can be modified or deleted.
+
+| **Feature**   | **Action**                    | **Expected Result**          | **Actual Result** |
+| ------------- | ----------------------------- | ---------------------------- | ----------------- |
+| Edit Coins | Click 'Edit' on any coin on all coins page | Navigated to coin edit form | Works as expected |
+| Edit Coins | Click 'Edit' on any coin details page | Navigated to coin edit form | Works as expected |
+| Edit Coins | Click 'Edit' on any coin details page | Navigated to coin edit form | Works as expected |
+| Edit Coins | Leave mandatory fields empty on the coin edit page and update | The form is not saved | Works as expected |
+| Edit Coins | Edit coin information and update | Navigated to coin details page and the information correctly updated | Works as expected |
+| Edit Coins | Delete the coin on all coins page | Coin is deleted and no longer visible in the store | Works as expected |
+| Edit Coins | Delete the coin on coin details page | Coin is deleted and no longer visible in the store | Works as expected |
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/edit-deleted-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/edit-msg-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/edit-testing.JPG)
+
+  </details>
+
+  <details><summary>Screenshot</summary>
+
+  ![Screenshot](media/edit-updated-testing.JPG)
+
+  </details>
